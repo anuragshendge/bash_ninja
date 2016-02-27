@@ -1,0 +1,1409 @@
+Script started on Sat 27 Feb 2016 05:11:04 PM EST
+prac:cke
+No command 'cke' found, did you mean:
+ Command 'cme' from package 'libconfig-model-perl' (universe)
+ Command 'cde' from package 'cde' (universe)
+ Command 'cake' from package 'cakephp-scripts' (universe)
+cke: command not found
+prac:x
+x: command not found
+prac:c
+[H[Jprac:cxckeexit[1Pxit[2Plclear^[[2~cle[C[C[C[C[CThe website from which you got to this page is protected by CloudFlare. Email addresses on that page have been hidden in order to keep them from being accessed by malicious bots. You must enable Javascript in your broowser in order to decode the e-mail address.M[C[C[C[C[Chead The website from which you got to this page is protected by CloudFlare. Email addresses on that page have been hidden in order to keep them from being accessed by malicious bots. You must enable Javascript in you[5@r bro[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CM[C[C[C[C[Cl[K
+[KM[C[C[C[C[C[Chead The website from which you got to this page is protected by CloudFlare. Email addresses on that page have been hidden in order to keep them from being accessed by malicious bots. You must enable Javascript in youur browser in order to decode the e-mail address.M[C[C[C[C[CThe website from which you got to this page is protected by CloudFlare. Email addresses on that page have been hidden in order to keep them from being accessed by malicious bots. You must enable Javascript in your bro[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CM[C[C[C[C[C^[[2~cle[K
+[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Pclear^[[2~cle[C[C[C[C[CThe website from which you got to this page is protected by CloudFlare. Email addresses on that page have been hidden in order to keep them from being accessed by malicious bots. You must enable Javascript in your broowser in order to decode the e-mail address.M[C[C[C[C[Chead The website from which you got to this page is protected by CloudFlare. Email addresses on that page have been hidden in order to keep them from being accessed by malicious bots. You must enable Javascript in you[5@r bro[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CM[C[C[C[C[Cl[K
+[KM[C[C[C[C[C[Ccd Exercise\ Files/
+bash: cd: Exercise Files/: No such file or directory
+prac:sor[K[K[Khost[K[K[K[Khost[K[K[K[Khistory 
+    1  clear
+    2  sl
+    3  clear
+    4  ll
+    5  clear
+    6  l
+    7  clear
+    8  ls
+    9  clear
+   10  l
+   11  clear
+   12  l-
+   13  clear
+   14  l -a
+   15  clear
+   16  a
+   17  ls
+   18  lc
+   19  clear
+   20  updatcle
+   21  clear
+   22  alias
+   23  clear
+   24  aptupdate 
+   25  l
+   26  clear
+   27  ls
+   28  clear
+   29  l
+   30  clear
+   31  l
+   32  clear
+   33  vim array.sh
+   34  chmod +x array.sh 
+   35  ./array.sh 
+   36  vim array.sh 
+   37  ./array.sh 
+   38  vim array.sh 
+   39  ./array.sh 
+   40  vim array.sh 
+   41  ./array.sh 
+   42  echo "Some text" > file.txt     
+   43  clear
+   44  ls
+   45  clear
+   46  cat file.txt 
+   47  clear
+   48  > file.txt 
+   49  vim file.txt 
+   50  clear
+   51  echo :Some more text" >> file.txt
+   52  clear
+   53  cat file.txt 
+   54  echo "Some more text" >> file.txt
+   55  cat file.txt 
+   56  clear
+   57  mv read.shs read.sh
+   58  vim read.sh 
+   59  clear
+   60  chmod +x read.sh 
+   61  ./read.sh < file.txt 
+   62  ./read.sh file.txt 
+   63  echo "Not so much" >> file.txt 
+   64  cat file.txt 
+   65  clear
+   66  ./read.sh file.txt 
+   67  vim read.sh 
+   68  ./read.sh file.txt 
+   69  clear
+   70  ./read.sh < file.txt 
+   71  vim read.sh 
+   72  ./read.sh 
+   73  clear
+   74  ls
+   75  clear
+   76  cat < file.txt 
+   77  vim ftp.txt
+   78  ftp -n < ftp.txt 
+   79  ls
+   80  ftp -n < ftp.txt 
+   81  ls
+   82  clear
+   83  here
+   84  clear
+   85  vim heredoc.sh
+   86  chmod +x heredoc.sh 
+   87  ./heredoc.sh 
+   88  vim heredoc.sh
+   89  ./heredoc.sh 
+   90  vim heredoc.sh 
+   91  ./heredoc.sh 
+   92  vim heredoc.sh 
+   93  ./heredoc.sh 
+   94  ls
+   95  vim GUTINDEX.01 
+   96  clear
+   97  ls
+   98  clear
+   99  l
+  100  clear
+  101  df
+  102  whatis df
+  103  clear
+  104  uptime
+  105  clear
+  106  vim sysreport.sh
+  107  chmod +x sysreport.sh 
+  108  ./sysreport.sh 
+  109  clear
+  110  vim sysreport.sh
+  111  ./sysreport.sh 
+  112  vim sysreport.sh
+  113  ./sysreport.sh 
+  114  clear
+  115  vim sysreport.sh 
+  116  ./sysreport.sh 
+  117  clear
+  118  vim sysreport.sh 
+  119  ./sysreport.sh 
+  120  vim sysreport.sh 
+  121  ./sysreport.sh 
+  122  clear
+  123  ./sysreport.sh 
+  124  vim sysreport.sh 
+  125  ./sysreport.sh 
+  126  clear
+  127  vim sysreport.sh 
+  128  echo --help
+  129  clw
+  130  clear
+  131  man echo
+  132  clear
+  133  vim sysreport.sh 
+  134  ./sysreport.sh 
+  135  vim sysreport.sh 
+  136  clear
+  137  ./sysreport.sh 
+  138  clear
+  139  vim sysreport.sh 
+  140  ./sysreport.sh 
+  141  vim sysreport.sh 
+  142  ./sysreport.sh 
+  143  c;e
+  144  clear
+  145  vim sysreport.sh 
+  146  ./sysreport.sh 
+  147  cat sysreport.sh 
+  148  clear
+  149  vimsy
+  150  clear
+  151  vim sysreport.sh 
+  152  clear
+  153  ./sysreport.sh 
+  154  vim sysreport.sh 
+  155  ./sysreport.sh 
+  156  clear
+  157  ./sysreport.sh 
+  158  vim sysreport.sh 
+  159  ./sysreport.sh 
+  160  vim sysreport.sh 
+  161  ./sysreport.sh 
+  162  vim sysreport.sh 
+  163  clear
+  164  git status 
+  165  git add .
+  166  git commit 
+  167  git commit -m "Add string manipulation and system report generation"
+  168  git push origin master 
+  169  sudo vim ~/.bashrc
+  170  bash
+  171  exi
+  172  exit
+  173  ping -v
+  174  clear
+  175  ping -v google.com
+  176  clear
+  177  ping -n 2 www.google.com
+  178  ping -c 2 www.google.com
+  179  ls
+  180  clear
+  181  net
+  182  clear
+  183  net
+  184  le
+  185  clear
+  186  netcat
+  187  clear
+  188  whatis netcat
+  189  ps
+  190  clear
+  191  ls
+  192  clear
+  193  ps ax | grep -i "zombie"
+  194  ping -c 2 anuragshendge.com
+  195  arp
+  196  clear
+  197  arp
+  198  whatis arp
+  199  man arp
+  200  gateway
+  201  clear
+  202  ifconfig 
+  203  whatis route
+  204  clear
+  205  route
+  206  route -n
+  207  ls
+  208  clear
+  209  route -n
+  210  iptables
+  211  cl
+  212  clear
+  213  iptable
+  214  iptables
+  215  iptables -h
+  216  clear
+  217  stat -i
+  218  stat -i 
+  219  clear
+  220  ls
+  221  stat -i output.pdf 
+  222  clear
+  223  stat --help
+  224  clear
+  225  stat -t output.pdf 
+  226  clear
+  227  stat -ht output.pdf 
+  228  clear
+  229  stat -h output.pdf 
+  230  clear
+  231  fdisk 
+  232  ds
+  233  df output.pdf 
+  234  clear
+  235  df
+  236  clear
+  237  fdisk output.pdf 
+  238  clear
+  239  whatis fdisk 
+  240  clear
+  241  ls
+  242  clear
+  243  l
+  244  clear
+  245  vim
+  246  clear
+  247  ls
+  248  clear
+  249  l
+  250  clear
+  251  ls
+  252  clear
+  253  vim Vagrantfile 
+  254  cke
+  255  clear
+  256  man ifconfig 
+  257  ifconfig 
+  258  ifconfig wlan0
+  259  clear
+  260  sudo vim /etc/services 
+  261  clear
+  262  /boot/grub/i386-pc/
+  263  c
+  264  ps aux | grep -i "sched"
+  265  clear
+  266  netrestart 
+  267  ifconfig 
+  268  vim /etc/host
+  269  vim /etc/host.conf 
+  270  vim /etc/hostname 
+  271  vim /etc/hosts.allow 
+  272  clear
+  273  vim /etc/hosts
+  274  vim /etc/h
+  275  vim /etc/hosts
+  276  afs_an
+  277  clear
+  278  ifcongi
+  279  cleare
+  280  ifconfig 
+  281  clear
+  282  c
+  283  ifconfig 
+  284  ifconfig docker_gwbridge: down
+  285  sudo ifconfig docker_gwbridge: down
+  286  clear
+  287  ifconfig 
+  288  clear
+  289  ifconfig 
+  290  clear
+  291  aptupdate 
+  292  clde
+  293  lc
+  294  c
+  295  sudo apt-get install ipcalc 
+  296  clear
+  297  ipcalc --help
+  298  clear
+  299  ipcalc 128.138.243.100/16
+  300  ping google.com
+  301  c
+  302  ping anuragshendge.com
+  303  ifcongi
+  304  clear
+  305  ifconfig 
+  306  ipcalc 10.130.179.69/24
+  307  clear
+  308  ls
+  309  cle
+  310  cc
+  311  c
+  312  el
+  313  ce
+  314  clear
+  315  ls
+  316  clear
+  317  loopback
+  318  clear
+  319  local
+  320  clear
+  321  ping 127.0.0.1
+  322  lcle
+  323  c
+  324  ifconfig 
+  325  clear
+  326  sl
+  327  cl
+  328  clear
+  329  ping s3.com
+  330  clear
+  331  ping 8.8.8.8
+  332  clear
+  333  port
+  334  clear
+  335  poff 
+  336  clear
+  337  whatis poff
+  338  c
+  339  ppp
+  340  clear
+  341  ping 4.2.2.2
+  342  clear
+  343  ping -n 4.2.2.2
+  344  ifconfig 
+  345  clear
+  346  route
+  347  clear
+  348  route -n
+  349  ls
+  350  c
+  351  grep sl
+  352  clear
+  353  l
+  354  clear
+  355  dhcp
+  356  clear
+  357  dhcp3
+  358  clear
+  359  dhcp3-s
+  360  sudo vim /etc/dhcp/dhclient.conf 
+  361  ifconfig 
+  362  clear
+  363  ls
+  364  clear
+  365  monolog
+  366  logstash
+  367  clear
+  368  traceroute6 google.com
+  369  tracert google.com
+  370  traceroute6 www.google.com
+  371  traceroute computerhope.com
+  372  sudo apt-get install traceroute
+  373  clear
+  374  traceroute www.google.com
+  375  clear
+  376  traceroute anuragshendge.com
+  377  clear
+  378  traceroute ncsu.edu
+  379  clear
+  380  traceroute 127.0.0.1
+  381  c;e
+  382  man ifconfig 
+  383  ifconfig -a
+  384  clear
+  385  ifconfig 
+  386  clear
+  387  ifconfig 
+  388  ifconfig -v
+  389  clear
+  390  netstat -i
+  391  uptime 
+  392  clear
+  393  ifconfig 
+  394  ping 10.130.183.255
+  395  clear
+  396  route
+  397  clear
+  398  man rou
+  399  whatis route
+  400  clear
+  401  vim /etc/
+  402  clear
+  403  netstat -nr
+  404  cat /etc/resolv.conf 
+  405  ifup
+  406  whatis ifup
+  407  clear
+  408  vim /etc/network/interfaces
+  409  clear
+  410  lo
+  411  clear
+  412  ping lo
+  413  clear
+  414  traceroute 8.8.8.8
+  415  clear
+  416  treaceroute -n 8.8.8.8
+  417  traceroute -n 8.8.8.8
+  418  traceroute 8.8.8.8
+  419  ifconfig 
+  420  route -n
+  421  route
+  422  cle
+  423  clear
+  424  traceroute google.com
+  425  ifconfig 
+  426  route
+  427  tcpdump'
+  428  c
+  429  tcpdump 
+  430  clear
+  431  tcpdump etho
+  432  clear
+  433  ifconfig 
+  434  tcpdump wlan0
+  435  clear
+  436  tcpdump -w
+  437  whatis tcpdump
+  438  tcpdump not port 23
+  439  clear
+  440  tcpdump -n '(icmp or udp)' -vvv
+  441  clear
+  442  ssh -vvv
+  443  clear
+  444  tshark
+  445  cke
+  446  c
+  447  whatis dig
+  448  clear
+  449  dig www.anuragshendge.com
+  450  clear
+  451  dig +trace www.google.com
+  452  clear
+  453  dig +trace evilangel.com
+  454  clear
+  455  dig +tracedig --help evilangel.com 
+  456  clear
+  457  dig --help
+  458  dig -h
+  459  clear
+  460  dig google.com
+  461  ce
+  462  clear
+  463  dig +trace evilangel.com
+  464  clear
+  465  dig +trace www.vivid.com
+  466  clear
+  467  dig +trace digitalocean.com
+  468  clear
+  469  ls
+  470  le
+  471  clear
+  472  dig yahoo.com
+  473  clear
+  474  dig yahoo.com
+  475  clear\\cclear
+  476  c
+  477  clear
+  478  dig www.yahoo.com
+  479  cat /etc/resolv.conf 
+  480  clear
+  481  cat /etc/resolv.conf 
+  482  dig www.tumblr.com
+  483  clear
+  484  dig +trace www.tumblr.com
+  485  clear
+  486  ls
+  487  clear
+  488  netrestart 
+  489  sudo neret
+  490  sudo netrestart 
+  491  netrestart 
+  492  ifconfig 
+  493  ifconfig wlan0 up
+  494  sudo ifconfig wlan0 up
+  495  clear
+  496  sudo reboot
+  497  c
+  498  clear
+  499  cd
+  500  exit
+  501  ssh-keygen -t rsa
+  502  cat /home/anurag/.ssh/id_rsa
+  503  CLE
+  504  c
+  505  ssh-copy-id root@162.243.192.167
+  506  ssh root@162.243.192.167
+  507  clear
+  508  ssh-copy-id root@162.243.192.167
+  509  ssh root@162.243.192.167
+  510  ssh root@162.243.192.167 -vvvv
+  511  clear
+  512  vim /home/anurag/.ssh/
+  513  clear
+  514  cat ~/.ssh/id_rsa.pub | ssh user@123.45.56.78 "mkdir -p ~/.ssh && cat >>  ~/.ssh/authorized_keys"
+  515  cat ~/.ssh/id_rsa.pub | ssh root@162.243.192.167 "mkdir -p ~/.ssh && cat >>  ~/.ssh/authorized_keys"
+  516  ssh root@162.243.192.167
+  517  ls
+  518  clear
+  519  ls
+  520  clear
+  521  pcstat
+  522  pmstat
+  523  clear
+  524  ysdig
+  525  clear
+  526  sysdig
+  527  clear
+  528  perc
+  529  clear
+  530  perf
+  531  clear
+  532  pidstat
+  533  clear
+  534  whatis pidstat
+  535  clear
+  536  iptraf
+  537  clear
+  538  perft
+  539  clear
+  540  ftrace
+  541  clear
+  542  ltrace
+  543  clear
+  544  ltrace -help
+  545  c
+  546  mpstat 
+  547  clear
+  548  whatis mpartition 
+  549  whatis mpstat 
+  550  mpstat --help
+  551  mpstat -h
+  552  clear
+  553  man mpstat 
+  554  mpstat
+  555  mpstat | awk '{print $5}'
+  556  mpstat | awk -F' ,[[ ]]*' '{print $5}'
+  557  mpstat | awk -F', ' ' '{print $5}'
+  558  mpstat | awk -F', ' '{print $5}'
+  559  ls
+  560  l
+  561  clear
+  562  \l
+  563  \ls
+  564  ls
+  565  clear
+  566  ls
+  567  l
+  568  dig ncsu.edu
+  569  clear
+  570  dig ncsu.edu
+  571  clear
+  572  dig +trace www.ncsu.edu
+  573  vim /etc/resolv.conf 
+  574  clear
+  575  iptabels
+  576  clear
+  577  iptables
+  578  iptables -h
+  579  clear
+  580  iptables -n
+  581  c
+  582  gid
+  583  clear
+  584  ssh root@162.243.192.167
+  585  cat /home/anurag/.ssh/id_rsa
+  586  ssh-keygen -t rsa
+  587  clear
+  588  cat /home/anurag/.ssh/id_rsa.pub 
+  589  ssh root@198.211.100.22
+  590  clear
+  591  SSHAUTHSOCK=0 ssh root@198.211.100.22
+  592  ssh root@192.241.253.77
+  593  netrestart 
+  594  ls
+  595  clear
+  596  ls
+  597  clear
+  598  cd /usr/share/common-licenses/
+  599  clear
+  600  grep "GNU" GPL-3
+  601  grep -n "GNU" GPL-3
+  602  clear
+  603  grep
+  604  clear
+  605  ls
+  606  clear
+  607  dd
+  608  du
+  609  cat $PATH
+  610  clear
+  611  echo $PATH
+  612  le
+  613  clear
+  614  echo $PATH
+  615  whatis pr
+  616  clear
+  617  cd
+  618  ls
+  619  clear
+  620  pr output.pdf 
+  621  62;9;c62;9;c
+  622  clear
+  623  ls
+  624  pr testlog 
+  625  clear
+  626  pr -h
+  627  clear
+  628  pr --help
+  629  clear
+  630  pr -h testlog 
+  631  clear
+  632  whatis comm 
+  633  clear
+  634  diff test testlog 
+  635  whatis head
+  636  head testlog 
+  637  clear
+  638  ls
+  639  clear
+  640  l
+  641  cd Lynda/bash_ninja/
+  642  clear
+  643  ls
+  644  cd Ex_Files_UaR_BashScripts/
+  645  ls
+  646  cd Exercise\ Files/
+  647  l
+  648  head The website from which you got to this page is protected by CloudFlare. Email addresses on that page have been hidden in order to keep them from being accessed by malicious bots. You must enable Javascript in your browser in order to decode the e-mail address.
+  649  The website from which you got to this page is protected by CloudFlare. Email addresses on that page have been hidden in order to keep them from being accessed by malicious bots. You must enable Javascript in your browser in order to decode the e-mail address.
+  650  [2~cle
+  651  clear
+  652  l
+  653  xit
+  654  exit
+  655  cke
+  656  x
+  657  c
+  658  cd Exercise\ Files/
+  659  history 
+prac:history [C[C[C[C[Ccd Exercise\ Files/[C[C[C[C[C[C[Kxckeexit[1Pxit[2Plclear^[[2~cle[C[C[C[C[CThe website from which you got to this page is protected by CloudFlare. Email addresses on that page have been hidden in order to keep them from being accessed by malicious bots. You must enable Javascript in your broowser in order to decode the e-mail address.M[C[C[C[C[Chead The website from which you got to this page is protected by CloudFlare. Email addresses on that page have been hidden in order to keep them from being accessed by malicious bots. You must enable Javascript in you[5@r bro[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CM[C[C[C[C[Cl[K
+[KM[C[C[C[C[C[Ccd Exercise\ Files/[C[C[C[C[Cls[Kcd Ex_Files_UaR_BashScripts/[C[C[C[C[Cls[Kcleard Lynda/bash_ninja/[C[C[C[C[Cl[Kclear[3Plsclearhead testlog [C[C[C[C[C[2Pwhatis head[C[C[C[C[Cdiff test testlog [C[C[C[C[Cclear[Kwhatis comm [C[C[C[C[C[7Pclearpr -h testlog [C[C[C[C[C[9Pclearpr --help[C[C[C[C[C[4Pclearpr -hclearpr testlog [C[C[C[C[Cls[Kclear62;9;c62;9;c[C[C[C[C[Cpr output.pdf [C[C[C[C[C[9Pclear[3Plsclearpr output.pdf [C[C[C[C[C[2P62;9;c62;9;c[C[C[C[C[C[7Pclear[3Plspr testlog [C[C[C[C[C[6Pclearpr -hclearpr --help[C[C[C[C[C[4Pclearpr -h testlog [C[C[C[C[C[9Pclearwhatis comm [C[C[C[C[C[7Pcleardiff test testlog [C[C[C[C[C[7Pwhatis head[C[C[C[C[Chead testlog [C[C[C[C[C[8Pclear[3Plsclearl[Kcd Lynda/bash_ninja/[C[C[C[C[C[Clear[K[3Plscd Ex_Files_UaR_BashScripts/[C[C[C[C[Cls[Kcd Exercise\ Files/[C[C[C[C[Cl[Khead The website from which you got to this page is protected by CloudFlare. Email addresses on that page have been hidden in order to keep them from being accessed by malicious bots. You must enable Javascript in youur browser in order to decode the e-mail address.M[C[C[C[C[CThe website from which you got to this page is protected by CloudFlare. Email addresses on that page have been hidden in order to keep them from being accessed by malicious bots. You must enable Javascript in your bro[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CM[C[C[C[C[C^[[2~cle[K
+[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Pclearl[Kxitexit[1Pcke[2Pxcd Exercise\ Files/[C[C[C[C[C[11Phistory [C[C[C[C[C[Khistory [C[C[C[C[Ccd Exercise\ Files/[C[C[C[C[C[C[Kxckeexit[1Pxit[2Plclear^[[2~cle[C[C[C[C[CThe website from which you got to this page is protected by CloudFlare. Email addresses on that page have been hidden in order to keep them from being accessed by malicious bots. You must enable Javascript in your broowser in order to decode the e-mail address.M[C[C[C[C[Chead The website from which you got to this page is protected by CloudFlare. Email addresses on that page have been hidden in order to keep them from being accessed by malicious bots. You must enable Javascript in you[5@r bro[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CM[C[C[C[C[Cl[K
+[KM[C[C[C[C[C[Ccd Exercise\ Files/[C[C[C[C[Cls[Kcd Ex_Files_UaR_BashScripts/[C[C[C[C[Cls[Kcleard Lynda/bash_ninja/[C[C[C[C[Cl[Kclear[3Plsclearhead testlog [C[C[C[C[C[2Pwhatis head[C[C[C[C[Cdiff test testlog [C[C[C[C[Cclear[Kwhatis comm [C[C[C[C[C[7Pclearpr -h testlog [C[C[C[C[C[9Pclearpr --help[C[C[C[C[C[4Pclearpr -hclearpr testlog [C[C[C[C[Cls[Kclear62;9;c62;9;c[C[C[C[C[Cpr output.pdf [C[C[C[C[C[9Pclear[3Plscdlearwhatis pr[C[C[C[C[Cecho $PATH[C[C[C[C[C[5Pclear[3Pleecho $PATH[C[C[C[C[Cle[Kclearecho $PATH[C[C[C[C[C[1Pwhatis pr[C[C[C[C[C[4Pcleard[Klsclearpr output.pdf [C[C[C[C[C[2P62;9;c62;9;c[C[C[C[C[C[7Pclear[3Plspr testlog [C[C[C[C[C[6Pclearpr -hclearpr --help[C[C[C[C[C[4Pclearpr -h testlog [C[C[C[C[C[9Pclearwhatis comm [C[C[C[C[C[7Pcleardiff test testlog [C[C[C[C[C[7Pwhatis head[C[C[C[C[Chead testlog [C[C[C[C[C[8Pclear[3Plsclearl[Kcd Lynda/bash_ninja/[C[C[C[C[C[Clear[K[3Plscd Ex_Files_UaR_BashScripts/[C[C[C[C[Cls[Kcd Exercise\ Files/[C[C[C[C[Cls[Kcd Ex_Files_UaR_BashScripts/[C[C[C[C[Cls[Kcleard Lynda/bash_ninja/[C[C[C[C[Cl[Kclear[3Plsclearhead testlog [C[C[C[C[C[2Pwhatis head[C[C[C[C[Cdiff test testlog [C[C[C[C[Cclear[Kwhatis comm [C[C[C[C[C[7Pclearpr -h testlog [C[C[C[C[C[9Pclearpr --help[C[C[C[C[C[4Pclearpr -hclearpr testlog [C[C[C[C[Cls[Kclear62;9;c62;9;c[C[C[C[C[Cpr output.pdf [C[C[C[C[C[9Pclear[3Plscdlearwhatis pr[C[C[C[C[Cecho $PATH[C[C[C[C[C[5Pclear[3Pleecho $PATH
+/home/anurag/.rvm/gems/ruby-2.2.3/bin:/home/anurag/.rvm/gems/ruby-2.2.3@global/bin:/home/anurag/.rvm/rubies/ruby-2.2.3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/jvm/jdk1.8.0_45/bin:/usr/local/bin:/home/anurag/.rvm/bin:/usr/lib/jvm/jdk1.8.0_45/bin:/usr/local/bin:/home/anurag/.rvm/bin
+prac:c
+[H[Jprac:c[Kcut -d"\[Csd"\ d"\[C[C[C[1P d"\[1Pd"\[C[C[C" -s f[K[K
+> ^C
+prac:cut -d"\" -s shortlist
+> ^C
+prac:cut -d"\" -s shortlist[1P shortlist[1P shortlist- shortlistf shortlist1 shortlist
+> ^C
+prac:cut -d"\" -f1 shortlist[1P[1@ 
+2233|charles
+9876|bill
+5678|robert
+2365|john
+5423|barry
+prac:cut -d" " -f1 shortlist[1P shortlist2 shortlist
+harris
+johnson
+dylan
+woodcock
+wood
+prac:cut -d" " -f2 shortlist[C[C[C[C[C[C[C[1P shortlist5 shortlist
+
+
+
+|director
+
+prac:cut -d" " -f5 shortlist[1P shortlist4 shortlist
+|g.m.
+
+
+
+
+prac:cl
+The program 'cl' is currently not installed. You can install it by typing:
+sudo apt-get install cl-launch
+prac:c
+[H[Jprac:cat shortlist 
+2233|charles harris  |g.m.     |sales     |12/12/52| 90000
+9876|bill johnson    |director |production|03/12/50|130000
+5678|robert dylan    |d.g.m.   |marketing |04/19/43| 85000
+2365|john woodcock   |director |personnel |05/11/47|120000
+5423|barry wood      |chairman |admin     |08/30/56|160000
+prac:cat shortlist [C[C[C[C[C[C[Klut -d" " -f4 shortlist[C[1P shortlist3 shortlist
+
+
+
+
+
+prac:c
+[H[Jprac:cut -d" " -f3 shortlist[C[C[C[C[C[C[9Pat shortlist [C[C[C[C[C[Cut -d" " -f3 shortlist[C[C[C[C[C[C[C
+
+
+
+
+
+prac:cut -d" " -f3 shortlist[C[C[C[C[C[C[Kut -d" " -f3 shortlist[1P shortlist5 shortlist
+
+
+
+|director
+
+prac:c
+[H[Jprac:ls
+dept.lst  desigx.lst  -f2  foo1  foo2  group1  group1.bak  group1.sorted  group2  group2.sorted  -i  passwd1  passwd2  SHORT  shortlist  t1  t2  typescript
+prac:cat c[Kshortlist 
+2233|charles harris  |g.m.     |sales     |12/12/52| 90000
+9876|bill johnson    |director |production|03/12/50|130000
+5678|robert dylan    |d.g.m.   |marketing |04/19/43| 85000
+2365|john woodcock   |director |personnel |05/11/47|120000
+5423|barry wood      |chairman |admin     |08/30/56|160000
+prac:cat shortlist [C[C[C[C[Cls[K[1Pcut -d" " -f5 shortlist[1P[1@|
+12/12/52
+03/12/50
+04/19/43
+05/11/47
+08/30/56
+prac:cut -d"|" -f5 shortlist | sort -t/[K'/' -n
+03/12/50
+04/19/43
+05/11/47
+08/30/56
+12/12/52
+prac:cut -d"|" -f5 shortlist | sort -t'/' -n[C[C[C[C[C[Kcut -d"|" -f5 shortlist | sort -t'/' -n[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kt[C[C[1@`[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C`[C[C[C[C[C[1@s[1@o[1@r[1@t[1@ [1@-[1@t[1@'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C' shortlist 
+sort: multi-character tab ‘`cut -d"|" -f5 shortlist`’
+prac:sort -t'`cut -d"|" -f5 shortlist`' shortlist [1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+sort: multi-character tab ‘12/12/52’
+prac:c
+[H[Jprac:csort -t`cut -d"|" -f5 shortlist` shortlist 
+sort: multi-character tab ‘12/12/52’
+prac:sort -t`cut -d"|" -f5 shortlist` shortlist [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@|[1@ [1@ [C[C[1@ [1@c[1@u[1@t[C[1@ [1@-[1@d[1@"[1@"[1@/[C[C[1@ [1@-[1@f[1@1[1P
+sort: multi-character tab ‘12’
+prac:sort -t`cut -d"|" -f5 shortlist | cut -d"/" -f1` shortlist [C[1@-[1@n[1@ 
+sort: multi-character tab ‘12’
+prac:sort -n -t`cut -d"|" -f5 shortlist | cut -d"/" -f1` shortlist 
+sort: multi-character tab ‘12’
+prac:sort -n -t`cut -d"|" -f5 shortlist | cut -d"/" -f1` shortlist [C[C[C[C[C[C[C[C[C[C[C[3P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3@n -[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+sort: multi-character tab ‘12’
+prac:xx[K[Kc
+[H[Jprac:ls
+dept.lst  desigx.lst  -f2  foo1  foo2  group1  group1.bak  group1.sorted  group2  group2.sorted  -i  passwd1  passwd2  SHORT  shortlist  t1  t2  typescript
+prac:cat shortlist 
+2233|charles harris  |g.m.     |sales     |12/12/52| 90000
+9876|bill johnson    |director |production|03/12/50|130000
+5678|robert dylan    |d.g.m.   |marketing |04/19/43| 85000
+2365|john woodcock   |director |personnel |05/11/47|120000
+5423|barry wood      |chairman |admin     |08/30/56|160000
+prac:c
+[H[Jprac:cat shortlist 
+2233|charles harris  |g.m.     |sales     |12/12/52| 90000
+9876|bill johnson    |director |production|03/12/50|130000
+5678|robert dylan    |d.g.m.   |marketing |04/19/43| 85000
+2365|john woodcock   |director |personnel |05/11/47|120000
+5423|barry wood      |chairman |admin     |08/30/56|160000
+prac:sort -t| -k 5.1 shcomplete: usage: complete [-abcdefgjksuv] [-pr] [-DE] [-o option] [-A action] [-G globpat] [-W wordlist]  [-F function] [-C command] [-X filterpat] [-P prefix] [-S suffix] [name ...]
+
+sort: option requires an argument -- 't'
+Try 'sort --help' for more information.
+-k: command not found
+prac:c
+[H[Jprac:csort -t| -k 5.1 sh[C[C[C[C[C[4Pcat shortlist [C[C[C[C[Csort -t| -k 5.1 short [Klsit
+sort: option requires an argument -- 't'
+Try 'sort --help' for more information.
+-k: command not found
+prac:sort -t| -k 5.1 shortlsit[1@'[C[1@'
+sort: cannot read: shortlsit: No such file or directory
+prac:sort -t'|' -k 5.1 shortlsit[C[C[C[C[C[C[C[C[C[C[C[1Pt[1Ptistt[K
+9876|bill johnson    |director |production|03/12/50|130000
+5678|robert dylan    |d.g.m.   |marketing |04/19/43| 85000
+2365|john woodcock   |director |personnel |05/11/47|120000
+5423|barry wood      |chairman |admin     |08/30/56|160000
+2233|charles harris  |g.m.     |sales     |12/12/52| 90000
+prac:sort -t'|' -k 5.1 shortlist[C[C[C[C[C[Kcat -t'}[K|'[K[K[K[K[K[K[K[K[Kcut -[K[K[K[K[Ksort -t'|' -k 5.1 shortlist[1P shortlist2 shortlist
+2233|charles harris  |g.m.     |sales     |12/12/52| 90000
+9876|bill johnson    |director |production|03/12/50|130000
+5678|robert dylan    |d.g.m.   |marketing |04/19/43| 85000
+2365|john woodcock   |director |personnel |05/11/47|120000
+5423|barry wood      |chairman |admin     |08/30/56|160000
+prac:sort -t'|' -k 5.2 shortlist[1P shortlist3 shortlist
+2365|john woodcock   |director |personnel |05/11/47|120000
+9876|bill johnson    |director |production|03/12/50|130000
+2233|charles harris  |g.m.     |sales     |12/12/52| 90000
+5678|robert dylan    |d.g.m.   |marketing |04/19/43| 85000
+5423|barry wood      |chairman |admin     |08/30/56|160000
+prac:sort -t'|' -k 5.3 shortlist[C[C[C[C[C[C[C[C[C[Kc
+[H[Jprac:
+prac:c
+[H[Jprac:csort -t'|' -k 5.3 shortlist2[C[C[C[C[C[C[C[C[C[C1[C[C[C[C[C[C[C[C[C[C
+9876|bill johnson    |director |production|03/12/50|130000
+5678|robert dylan    |d.g.m.   |marketing |04/19/43| 85000
+2365|john woodcock   |director |personnel |05/11/47|120000
+5423|barry wood      |chairman |admin     |08/30/56|160000
+2233|charles harris  |g.m.     |sales     |12/12/52| 90000
+prac:sort -t'|' -k 5.1 shortlist[C[C[C[C[Cc[Ksort -t'|' -k 5.1 shortlist[C[C[1P shortlist3 shortlist, shortlist5 shortlist. shortlist4 shortlist
+2233|charles harris  |g.m.     |sales     |12/12/52| 90000
+2365|john woodcock   |director |personnel |05/11/47|120000
+5678|robert dylan    |d.g.m.   |marketing |04/19/43| 85000
+9876|bill johnson    |director |production|03/12/50|130000
+5423|barry wood      |chairman |admin     |08/30/56|160000
+prac:sort -t'|' -k 5.3,5.4 shortlist[C[C[C[C[C[Ksort -t'|' -k 5.3,5.4 shortlist[1P[1@4[C[C[C[C[1P shortlist5 shortlist
+2365|john woodcock   |director |personnel |05/11/47|120000
+2233|charles harris  |g.m.     |sales     |12/12/52| 90000
+9876|bill johnson    |director |production|03/12/50|130000
+5678|robert dylan    |d.g.m.   |marketing |04/19/43| 85000
+5423|barry wood      |chairman |admin     |08/30/56|160000
+prac:sort -t'|' -k 5.4,5.5 shortlist[1P shortlist8 shortlist[1P[1@7
+5678|robert dylan    |d.g.m.   |marketing |04/19/43| 85000
+2365|john woodcock   |director |personnel |05/11/47|120000
+9876|bill johnson    |director |production|03/12/50|130000
+2233|charles harris  |g.m.     |sales     |12/12/52| 90000
+5423|barry wood      |chairman |admin     |08/30/56|160000
+prac:sort -t'|' -k 5.7,5.8 shortlist[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@-[1@n[1@ 
+5678|robert dylan    |d.g.m.   |marketing |04/19/43| 85000
+2365|john woodcock   |director |personnel |05/11/47|120000
+9876|bill johnson    |director |production|03/12/50|130000
+2233|charles harris  |g.m.     |sales     |12/12/52| 90000
+5423|barry wood      |chairman |admin     |08/30/56|160000
+prac:sort -n -t'|' -k 5.7,5.8 shortlist[1@r
+5423|barry wood      |chairman |admin     |08/30/56|160000
+2233|charles harris  |g.m.     |sales     |12/12/52| 90000
+9876|bill johnson    |director |production|03/12/50|130000
+2365|john woodcock   |director |personnel |05/11/47|120000
+5678|robert dylan    |d.g.m.   |marketing |04/19/43| 85000
+prac:head foo1 o\f[K[K[Kfoo1 [K[K2 
+==> foo1 <==
+charlie
+henry
+julie
+monty
+sumit
+
+==> foo2 <==
+bob
+charlie
+harry
+julie
+monty
+sumit
+prac:c
+[H[Jprac:cat shortlist 
+2233|charles harris  |g.m.     |sales     |12/12/52| 90000
+9876|bill johnson    |director |production|03/12/50|130000
+5678|robert dylan    |d.g.m.   |marketing |04/19/43| 85000
+2365|john woodcock   |director |personnel |05/11/47|120000
+5423|barry wood      |chairman |admin     |08/30/56|160000
+prac:cut -d"|" -f 5[K[K5
+^C
+prac:cut -d"|" -f5 shortlist 
+12/12/52
+03/12/50
+04/19/43
+05/11/47
+08/30/56
+prac:cut -d"|" -f5 shortlist | cut -c7-
+52
+50
+43
+47
+56
+prac:cut -d"|" -f5 shortlist | cut -c7- | sort un[K[K[K |
+> ^C
+prac:cut -d"|" -f5 shortlist | cut -c7- | sort |[K[K
+43
+47
+50
+52
+56
+prac:cut -d"|" -f5 shortlist | cut -c7- | sort | uniq -c
+      1 43
+      1 47
+      1 50
+      1 52
+      1 56
+prac:c
+[H[Jprac:cat shortlist 
+2233|charles harris  |g.m.     |sales     |12/12/52| 90000
+9876|bill johnson    |director |production|03/12/50|130000
+5678|robert dylan    |d.g.m.   |marketing |04/19/43| 85000
+2365|john woodcock   |director |personnel |05/11/47|120000
+5423|barry wood      |chairman |admin     |08/30/56|160000
+prac:gre [K[K[K[Kgrep -n [K[K[K[K[K[K[K[Kcut -d";[K|'[K" -f s[K[K4
+s	h ho	 
+sh
+^C
+prac:cut -d"|" -f4 shortlist 
+sales     
+production
+marketing 
+personnel 
+admin     
+prac:cut -d"|" -f4 shortlist | uniq -c
+      1 sales     
+      1 production
+      1 marketing 
+      1 personnel 
+      1 admin     
+prac:cut -d"|" -f4 shortlist | uniq -c[K[K[K[K[K[K[K[K[K[K
+sales     
+production
+marketing 
+personnel 
+admin     
+prac:cut -d"|" -f4 shortlist | uniq -c[K[C[C[C[C[C[Kca[K[Kma m[Ksort[K
+ma: command not found
+prac:c
+[H[Jprac:man sort
+[?1049h[?1h=SORT(1)                                                                                              User Commands                                                                                              SORT(1)[m
+[m
+[1mNAME[0m[m
+       sort - sort lines of text files[m
+[m
+[1mSYNOPSIS[0m[m
+       [1msort[0m [[4mOPTION[24m]... [[4mFILE[24m]...[m
+       [1msort[0m [[4mOPTION[24m]... [4m--files0-from=F[24m[m
+[m
+[1mDESCRIPTION[0m[m
+       Write sorted concatenation of all FILE(s) to standard output.[m
+[m
+       Mandatory arguments to long options are mandatory for short options too.  Ordering options:[m
+[m
+       [1m-b[0m, [1m--ignore-leading-blanks[0m[m
+              ignore leading blanks[m
+[m
+       [1m-d[0m, [1m--dictionary-order[0m[m
+              consider only blanks and alphanumeric characters[m
+[m
+       [1m-f[0m, [1m--ignore-case[0m[m
+              fold lower case to upper case characters[m
+[m
+       [1m-g[0m, [1m--general-numeric-sort[0m[m
+              compare according to general numerical value[m
+[m
+       [1m-i[0m, [1m--ignore-nonprinting[0m[m
+              consider only printable characters[m
+[m
+       [1m-M[0m, [1m--month-sort[0m[m
+              compare (unknown) < 'JAN' < ... < 'DEC'[m
+[m
+       [1m-h[0m, [1m--human-numeric-sort[0m[m
+              compare human readable numbers (e.g., 2K 1G)[m
+[m
+       [1m-n[0m, [1m--numeric-sort[0m[m
+              compare according to string numerical value[m
+[m
+       [1m-R[0m, [1m--random-sort[0m[m
+              sort by random hash of keys[m
+[m
+       [1m--random-source[0m=[4mFILE[24m[m
+              get random bytes from FILE[m
+[m
+       [1m-r[0m, [1m--reverse[0m[m
+              reverse the result of comparisons[m
+[m
+       [1m--sort[0m=[4mWORD[24m[m
+              sort according to WORD: general-numeric [1m-g[0m, human-numeric [1m-h[0m, month [1m-M[0m, numeric [1m-n[0m, random [1m-R[0m, version [1m-V[0m[m
+[m
+       [1m-V[0m, [1m--version-sort[0m[m
+              natural sort of (version) numbers within text[m
+[m
+       Other options:[m
+[m
+       [1m--batch-size[0m=[4mNMERGE[24m[m
+              merge at most NMERGE inputs at once; for more use temp files[m
+[m
+       [1m-c[0m, [1m--check[0m, [1m--check[0m=[4mdiagnose-first[24m[m
+              check for sorted input; do not sort[m
+[3m Manual page sort(1) line 1 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[m
+[3m Manual page sort(1) line 2 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K       [1m-C[0m, [1m--check[0m=[4mquiet[24m, [1m--check[0m=[4msilent[24m[m
+[3m Manual page sort(1) line 5 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K              like [1m-c[0m, but do not report first bad line[m
+[3m Manual page sort(1) line 6 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[m
+[3m Manual page sort(1) line 7 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K       [1m--compress-program[0m=[4mPROG[24m[m
+[3m Manual page sort(1) line 8 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K              compress temporaries with PROG; decompress them with PROG [1m-d[0m[m
+[3m Manual page sort(1) line 9 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[m
+[3m Manual page sort(1) line 10 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K       [1m--debug[0m[m
+[3m Manual page sort(1) line 11 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K              annotate the part of the line used to sort, and warn about questionable usage to stderr[m
+[3m Manual page sort(1) line 12 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[m
+[3m Manual page sort(1) line 13 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K       [1m--files0-from[0m=[4mF[24m[m
+[3m Manual page sort(1) line 14 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K              read input from the files specified by NUL-terminated names in file F; If F is - then read names from standard input[m
+[3m Manual page sort(1) line 15 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[m
+[3m Manual page sort(1) line 16 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K       [1m-k[0m, [1m--key[0m=[4mKEYDEF[24m[m
+[3m Manual page sort(1) line 17 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K              sort via a key; KEYDEF gives location and type[m
+[3m Manual page sort(1) line 18 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[m
+[3m Manual page sort(1) line 19 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K       [1m-m[0m, [1m--merge[0m[m
+[3m Manual page sort(1) line 20 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K              merge already sorted files; do not sort[m
+[3m Manual page sort(1) line 21 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[m
+[3m Manual page sort(1) line 22 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K       [1m-o[0m, [1m--output[0m=[4mFILE[24m[m
+[3m Manual page sort(1) line 23 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K              write result to FILE instead of standard output[m
+[3m Manual page sort(1) line 24 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[m
+[3m Manual page sort(1) line 25 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K       [1m-s[0m, [1m--stable[0m[m
+[3m Manual page sort(1) line 26 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K              stabilize sort by disabling last-resort comparison[m
+[3m Manual page sort(1) line 27 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[m
+[3m Manual page sort(1) line 28 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K       [1m-S[0m, [1m--buffer-size[0m=[4mSIZE[24m[m
+[3m Manual page sort(1) line 29 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K              use SIZE for main memory buffer[m
+[3m Manual page sort(1) line 30 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[m
+[3m Manual page sort(1) line 31 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K       [1m-t[0m, [1m--field-separator[0m=[4mSEP[24m[m
+[3m Manual page sort(1) line 32 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K              use SEP instead of non-blank to blank transition[m
+[3m Manual page sort(1) line 33 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[m
+[3m Manual page sort(1) line 34 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K       [1m-T[0m, [1m--temporary-directory[0m=[4mDIR[24m[m
+[3m Manual page sort(1) line 35 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K              use DIR for temporaries, not $TMPDIR or /tmp; multiple options specify multiple directories[m
+[3m Manual page sort(1) line 36 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[m
+[3m Manual page sort(1) line 37 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K       [1m--parallel[0m=[4mN[24m[m
+[3m Manual page sort(1) line 38 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K              change the number of sorts run concurrently to N[m
+[3m Manual page sort(1) line 39 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[m
+[3m Manual page sort(1) line 40 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K       [1m-u[0m, [1m--unique[0m[m
+[3m Manual page sort(1) line 41 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K              with [1m-c[0m, check for strict ordering; without [1m-c[0m, output only the first of an equal run[m
+[3m Manual page sort(1) line 42 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[m
+[3m Manual page sort(1) line 43 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K       [1m-z[0m, [1m--zero-terminated[0m[m
+[3m Manual page sort(1) line 44 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K              end lines with 0 byte, not newline[m
+[3m Manual page sort(1) line 45 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[m
+[3m Manual page sort(1) line 46 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K       [1m--help[0m display this help and exit[m
+[3m Manual page sort(1) line 47 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[m
+[3m Manual page sort(1) line 48 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K       [1m--version[0m[m
+[3m Manual page sort(1) line 49 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K              output version information and exit[m
+[3m Manual page sort(1) line 50 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[m
+[3m Manual page sort(1) line 51 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K       KEYDEF  is  F[.C][OPTS][,F[.C][OPTS]]  for  start and stop position, where F is a field number and C a character position in the field; both are origin 1, and the stop position defaults to the line's end.  If[m
+[3m Manual page sort(1) line 52 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K       neither [1m-t[0m nor [1m-b[0m is in effect, characters in a field are counted from the beginning of the preceding whitespace.  OPTS is one or more single-letter  ordering  options  [bdfgiMhnRrV],  which  override  global[m
+[3m Manual page sort(1) line 53 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K       ordering options for that key.  If no key is given, use the entire line as the key.[m
+[3m Manual page sort(1) line 54 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[m
+[3m Manual page sort(1) line 55 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K       SIZE may be followed by the following multiplicative suffixes: % 1% of memory, b 1, K 1024 (default), and so on for M, G, T, P, E, Z, Y.[m
+[3m Manual page sort(1) line 56 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[m
+[3m Manual page sort(1) line 57 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K       With no FILE, or when FILE is -, read standard input.[m
+[3m Manual page sort(1) line 58 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[m
+[3m Manual page sort(1) line 59 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K       *** WARNING *** The locale specified by the environment affects sort order.  Set LC_ALL=C to get the traditional sort order that uses native byte values.[m
+[3m Manual page sort(1) line 60 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[m
+[3m Manual page sort(1) line 61 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[1mAUTHOR[0m[m
+[3m Manual page sort(1) line 62 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K       Written by Mike Haertel and Paul Eggert.[m
+[3m Manual page sort(1) line 63 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[m
+[3m Manual page sort(1) line 64 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[1mREPORTING[0m [1mBUGS[0m[m
+[3m Manual page sort(1) line 65 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K       Report sort bugs to bug-coreutils@gnu.org[m
+[3m Manual page sort(1) line 66 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K       GNU coreutils home page: <http://www.gnu.org/software/coreutils/>[m
+[3m Manual page sort(1) line 67 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K       General help using GNU software: <http://www.gnu.org/gethelp/>[m
+[3m Manual page sort(1) line 68 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K       Report sort translation bugs to <http://translationproject.org/team/>[m
+[3m Manual page sort(1) line 69 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[m
+[3m Manual page sort(1) line 70 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K[1mCOPYRIGHT[0m[m
+[3m Manual page sort(1) line 71 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K       Copyright © 2013 Free Software Foundation, Inc.  License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.[m
+[3m Manual page sort(1) line 72 (press h for help or q to quit)[23m[K[K [KESCESC[KOO[KBB[K       This is free software: you are free to change and redistribute it.  There is NO WARRANTY, to the extent permitted by law.[m
+[3m Manual page sort(1) line 73 (press h for help or q to quit)[23m[K[K[3m Manual page sort(1) line 73 (press h for help or q to quit)[23m[K[K[m
+[3m Manual page sort(1) line 74 (press h for help or q to quit)[23m[K[K[?1l>[?1049lprac:
+prac:cl
+The program 'cl' is currently not installed. You can install it by typing:
+sudo apt-get install cl-launch
+prac:c
+[H[Jprac:ma in[K[K[K[K[Kclman sort[C[C[C[C[Cc[Kma sorcut -d"|" -f4 shortlist | sort
+admin     
+marketing 
+personnel 
+production
+sales     
+prac:cut -d"|" -f4 shortlist | sort -u
+admin     
+marketing 
+personnel 
+production
+sales     
+prac:cut -d"|" -f4 shortlist | sort -u | pr -t
+admin     
+marketing 
+personnel 
+production
+sales     
+prac:cut -d"|" -f4 shortlist | sort -u | pr -t -n
+    1	admin     
+    2	marketing 
+    3	personnel 
+    4	production
+    5	sales     
+prac:cut -d"|" -f4 shortlist | sort -u | pr -t -n[1P -n[1P -n[1P-n
+
+
+2016-02-27 17:28                                                  Page 1
+
+
+    1	admin     
+    2	marketing 
+    3	personnel 
+    4	production
+    5	sales     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+prac:;q[K[K
+prac:clear
+[H[Jprac:clearut -d"|" -f4 shortlist | sort -u | pr -nt
+
+
+2016-02-27 17:28                                                  Page 1
+
+
+    1tadmin     
+    2tmarketing 
+    3tpersonnel 
+    4tproduction
+    5tsales     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+prac:q
+q: command not found
+prac:clear
+[H[Jprac:clearq[Kcut -d"|" -f4 shortlist | sort -u | pr -nt t-t
+    1	admin     
+    2	marketing 
+    3	personnel 
+    4	production
+    5	sales     
+prac:cut -d"|" -f4 shortlist | sort -u | pr -n -t[Ks
+
+
+2016-02-27 17:28                                                  Page 1
+
+
+    1	admin     
+    2	marketing 
+    3	personnel 
+    4	production
+    5	sales     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+prac:clear
+[H[Jprac:tr '[a-z]' '[A-Z]' < shortlist 
+2233|CHARLES HARRIS  |G.M.     |SALES     |12/12/52| 90000
+9876|BILL JOHNSON    |DIRECTOR |PRODUCTION|03/12/50|130000
+5678|ROBERT DYLAN    |D.G.M.   |MARKETING |04/19/43| 85000
+2365|JOHN WOODCOCK   |DIRECTOR |PERSONNEL |05/11/47|120000
+5423|BARRY WOOD      |CHAIRMAN |ADMIN     |08/30/56|160000
+prac:l
+dept.lst  desigx.lst  -f2  foo1  foo2  group1  group1.bak  group1.sorted  group2  group2.sorted  -i  passwd1  passwd2  SHORT  shortlist  t1  t2  typescript
+prac:
+prac:
+prac:
+prac:
+prac:
+prac:
+prac:
+prac:l[Kc
+[H[Jprac:git status 
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   ../error.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31mtypescript[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+prac:vim typescript 
+[?1049h[?1h=[1;61r[34l[34h[?25h[23m[24m[0m[H[J[?25l[61;1H"typescript" [noeol] 1319L, 49152C[1;1H[33m   1 [0mScript started on Sat 27 Feb 2016 05:11:04 PM EST
+[33m   2 [0mprac:cke[34m^G^M[0m
+[33m   3 [0mNo command 'cke' found, did you mean:[34m^M[0m
+[33m   4 [0m Command 'cme' from package 'libconfig-model-perl' (universe)[34m^M[0m
+[33m   5 [0m Command 'cde' from package 'cde' (universe)[34m^M[0m
+[33m   6 [0m Command 'cake' from package 'cakephp-scripts' (universe)[34m^M[0m
+[33m   7 [0mcke: command not found[34m^M[0m
+[33m   8 [0mprac:x[34m^M[0m
+[33m   9 [0mx: command not found[34m^M[0m
+[33m  10 [0mprac:c[34m^M[0m
+[33m  11 [0m[34m^[[0m[H[34m^[[0m[Jprac:c[34m^H[0mx[34m^H[0mcke[34m^H^H^H[0mexit[34m^H^H^H^H^[[0m[1Pxit[34m^H^H^H^[[0m[2Pl[34m^H[0mclear[34m^H^H^H^H^H[0m^[[2~cle[34m^M^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[CThe website from which you got to this page is protected by CloudFlare. Email addresses on that page have beee[12;1H[33m     [0mn hidden in order to keep them from being accessed by malicious bots. You must enable Javascript in your bro[34m^M[0mowser in order to decode the e-mail address.[34m^[[0mM[34m^M^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[Chead The website from which you got tt[13;1H[33m     [0mo this page is protected by CloudFlare. Email addresses on that page have been hidden in order to keep them from being accessed by malicious bots. You must enable Javascript in you[34m^[[0m[5@r bro[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[[0m[14;1H[33m     [0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0mM[34m^M^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[Cl[34m^[[0m[K[34m^M[0m
+[33m  12 [0m[34m^M^[[0m[K[34m^[[0mM[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^H[0mhead The website from which you got to this page is protected by CloudFlare. Email addresses on that page have been hidden in order to keep them from being accessed by malicious bott[16;1H[33m     [0ms. You must enable Javascript in you[34m^M[0mur browser in order to decode the e-mail address.[34m^[[0mM[34m^M^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[CThe website from which you got to this page is protected by CloudFlare. Email addresses on that page havv[17;1H[33m     [0me been hidden in order to keep them from being accessed by malicious bots. You must enable Javascript in your bro[34m^[[0m[5P[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[[0m[18;1H[33m     [0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0mM[34m^M^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C^[[2~cle[34m^[[0m[K[34m^M[0m
+[33m  13 [0m[34m^M^[[0m[K[34m^[[0mM[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^M^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[3Pclear[34m^H^H^H^H^H[0m^[[2~cle[34m^M^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[CThe website from which you got to this page is protected by CloudFlare. Email addree[20;1H[33m     [0msses on that page have been hidden in order to keep them from being accessed by malicious bots. You must enable Javascript in your bro[34m^M[0mowser in order to decode the e-mail address.[34m^[[0mM[34m^M^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[Chead The wee[21;1H[33m     [0mbsite from which you got to this page is protected by CloudFlare. Email addresses on that page have been hidden in order to keep them from being accessed by malicious bots. You must enable Javascript in you[34m^[[0m[5@r broo[22;1H[33m     [0m[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0mM[34m^M^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[Cl[34m^[[0m[K[34m^M[0m
+[33m  14 [0m[34m^M^[[0m[K[34m^[[0mM[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^[[0m[C[34m^H[0mcd Exercise\ Files/[34m^M[0m
+[33m  15 [0mbash: cd: Exercise Files/: No such file or directory[34m^M[0m
+[33m  16 [0mprac:sor[34m^H^[[0m[K[34m^H^[[0m[K[34m^H^[[0m[K[34m^G^G[0mhost[34m^G^H^[[0m[K[34m^H^[[0m[K[34m^H^[[0m[K[34m^H^[[0m[K[34m^G[0mhost[34m^G^H^[[0m[K[34m^H^[[0m[K[34m^H^[[0m[K[34m^H^[[0m[K[34m^G[0mhistory [34m^M[0m
+[33m  17 [0m    1  clear[34m^M[0m
+[33m  18 [0m    2  sl[34m^M[0m
+[33m  19 [0m    3  clear[34m^M[0m
+[33m  20 [0m    4  ll[34m^M[0m
+[33m  21 [0m    5  clear[34m^M[0m
+[33m  22 [0m    6  l[34m^M[0m
+[33m  23 [0m    7  clear[34m^M[0m
+[33m  24 [0m    8  ls[34m^M[0m
+[33m  25 [0m    9  clear[34m^M[0m
+[33m  26 [0m   10  l[34m^M[0m
+[33m  27 [0m   11  clear[34m^M[0m
+[33m  28 [0m   12  l-[34m^M[0m
+[33m  29 [0m   13  clear[34m^M[0m
+[33m  30 [0m   14  l -a[34m^M[0m
+[33m  31 [0m   15  clear[34m^M[0m
+[33m  32 [0m   16  a[34m^M[0m
+[33m  33 [0m   17  ls[34m^M[0m
+[33m  34 [0m   18  lc[34m^M[0m
+[33m  35 [0m   19  clear[34m^M[0m
+[33m  36 [0m   20  updatcle[34m^M[0m
+[33m  37 [0m   21  clear[34m^M[0m
+[33m  38 [0m   22  alias[34m^M[0m
+[33m  39 [0m   23  clear[34m^M[0m
+[33m  40 [0m   24  aptupdate [34m^M[0m
+[33m  41 [0m   25  l[34m^M[0m
+[33m  42 [0m   26  clear[34m^M[0m
+[33m  43 [0m   27  ls[34m^M[0m
+[33m  44 [0m   28  clear[34m^M[0m
+[33m  45 [0m   29  l[34m^M[0m
+[33m  46 [0m   30  clear[34m^M[0m
+[33m  47 [0m   31  l[34m^M[0m
+[33m  48 [0m   32  clear[34m^M[0m
+[33m  49 [0m   33  vim array.sh[34m^M[0m
+[33m  50 [0m   34  chmod +x array.sh [34m^M[0m
+[33m  51 [0m   35  ./array.sh [34m^M[0m[61;204H1,1[11CTop[1;6H[34h[?25h[?25l[61;1H[K[61;1H:[34h[?25hq[?25l[34h[?25h[?25l[61;1H[K[61;1H[?1l>[34h[?25h[?1049lprac:whatis typec[Kscript
+typescript: nothing appropriate.
+prac:clear
+[H[Jprac:whatis typescript
+typescript: nothing appropriate.
+prac:exit
+exit
+
+Script done on Sat 27 Feb 2016 05:36:21 PM EST
