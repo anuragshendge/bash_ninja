@@ -1,1067 +1,139 @@
-Script started on Sun 28 Feb 2016 11:02:14 PM EST
-prac:clear
-[H[Jprac:who
-anurag   :0           2016-02-27 23:49 (:0)
-anurag   pts/23       2016-02-28 22:58 (:0:S.1)
-anurag   pts/13       2016-02-28 22:58 (:0:S.0)
-prac:clear
-[H[Jprac:whatis who
-who (1)              - show who is logged on
-prac:clear
-[H[Jprac:who | grep anurag > foo
-prac:cat foo
-anurag   :0           2016-02-27 23:49 (:0)
-anurag   pts/23       2016-02-28 22:58 (:0:S.1)
-anurag   pts/13       2016-02-28 22:58 (:0:S.0)
-prac:clear
-[H[Jprac:ls
-[0m[01;32marchive.tar[0m  [01;32mdept.lst[0m  [01;32mdesigx.lst[0m  [01;32m-f2[0m  foo  [01;32mfoo1[0m  [01;32mfoo2[0m  [01;32mgroup1[0m  [01;32mgroup1.bak[0m  [01;32mgroup1.sorted[0m  [01;32mgroup2[0m  [01;32mgroup2.sorted[0m  [01;32m-i[0m  [01;32mpasswd1[0m  [01;32mpasswd2[0m  [01;32mSHORT[0m  [01;32mshortlist[0m  [01;32mt1[0m  [01;32mt2[0m  [01;32mtypescript[0m
-prac:clear
-[H[Jprac:who
-anurag   :0           2016-02-27 23:49 (:0)
-anurag   pts/23       2016-02-28 22:58 (:0:S.1)
-anurag   pts/13       2016-02-28 22:58 (:0:S.0)
-prac:g[Kwho } [K[K| grep "pts/0
-> ^C
-prac:who | grep "pts/0[K23" shortlist [K[K[K[K[K[K[K[K[K[K> foo
-prac:cat fo[Koo
-anurag   pts/23       2016-02-28 22:58 (:0:S.1)
-prac:c
-[H[Jprac:clear
-[H[Jprac:l
-[0m[01;32marchive.tar[0m*  [01;32mdept.lst[0m*  [01;32mdesigx.lst[0m*  [01;32m-f2[0m*  foo  [01;32mfoo1[0m*  [01;32mfoo2[0m*  [01;32mgroup1[0m*  [01;32mgroup1.bak[0m*  [01;32mgroup1.sorted[0m*  [01;32mgroup2[0m*  [01;32mgroup2.sorted[0m*  [01;32m-i[0m*  [01;32mpasswd1[0m*  [01;32mpasswd2[0m*  [01;32mSHORT[0m*  [01;32mshortlist[0m*  [01;32mt1[0m*  [01;32mt2[0m*  [01;32mtypescript[0m*
-prac:lclear[Kat foo[C[C[C[C[C[18@who | grep "pts/23" >[C[C[C[C[K[K[K[K[K[K
-anurag   [01;31m[Kpts/23[m[K       2016-02-28 22:58 (:0:S.1)
-prac:c
-[H[Jprac:cwho | grep "pts/23"[C[C[C[C[Cc[K[Kgrep "f[Kdirectory[K" shortlist shortlist [K[K[K[K[K[K[K[K[K[Karchive.tar 
-[35m[Kshortlist[m[K[36m[K:[m[K9876|bill johnson    |[01;31m[Kdirector[m[K |production|03/12/50|130000
-[35m[Kshortlist[m[K[36m[K:[m[K2365|john woodcock   |[01;31m[Kdirector[m[K |personnel |05/11/47|120000
-Binary file archive.tar matches
-prac:c
-[H[Jprac: cat sg[Khortlist 
-2233|charles harris  |g.m.     |sales     |12/12/52| 90000
-9876|bill johnson    |director |production|03/12/50|130000
-5678|robert dylan    |d.g.m.   |marketing |04/19/43| 85000
-2365|john woodcock   |director |personnel |05/11/47|120000
-5423|barry wood      |chairman |admin     |08/30/56|160000
-prac:grep barry wwod [K[K[K[Kood shortlist 
-grep: wood: No such file or directory
-[35m[Kshortlist[m[K[36m[K:[m[K5423|[01;31m[Kbarry[m[K wood      |chairman |admin     |08/30/56|160000
-prac:c
-[H[Jprac:grep "barrry w[K[K[K[Kw[Ky wood" shortlist 
-5423|[01;31m[Kbarry wood[m[K      |chairman |admin     |08/30/56|160000
-prac:ce[K
-[H[Jprac:clear
-[H[Jprac:pt
-pt: command not found
-prac:clear
-[H[Jprac:s
-s: command not found
-prac:ps
-  PID TTY          TIME CMD
-29839 pts/24   00:00:00 bash
-30774 pts/24   00:00:00 ps
-prac:clear
-[H[Jprac:ps ax
-  PID TTY      STAT   TIME COMMAND
-    1 ?        Ss     0:01 /sbin/init
-    2 ?        S      0:00 [kthreadd]
-    3 ?        S      0:00 [ksoftirqd/0]
-    5 ?        S<     0:00 [kworker/0:0H]
-    7 ?        S      0:52 [rcu_sched]
-    8 ?        S      0:17 [rcuos/0]
-    9 ?        S      0:11 [rcuos/1]
-   10 ?        S      0:37 [rcuos/2]
-   11 ?        S      0:15 [rcuos/3]
-   12 ?        S      0:00 [rcuos/4]
-   13 ?        S      0:00 [rcuos/5]
-   14 ?        S      0:00 [rcuos/6]
-   15 ?        S      0:00 [rcuos/7]
-   16 ?        S      0:00 [rcu_bh]
-   17 ?        S      0:00 [rcuob/0]
-   18 ?        S      0:00 [rcuob/1]
-   19 ?        S      0:00 [rcuob/2]
-   20 ?        S      0:00 [rcuob/3]
-   21 ?        S      0:00 [rcuob/4]
-   22 ?        S      0:00 [rcuob/5]
-   23 ?        S      0:00 [rcuob/6]
-   24 ?        S      0:00 [rcuob/7]
-   25 ?        S      0:00 [migration/0]
-   26 ?        S      0:00 [watchdog/0]
-   27 ?        S      0:00 [watchdog/1]
-   28 ?        S      0:00 [migration/1]
-   29 ?        S      0:00 [ksoftirqd/1]
-   31 ?        S<     0:00 [kworker/1:0H]
-   32 ?        S      0:00 [watchdog/2]
-   33 ?        S      0:00 [migration/2]
-   34 ?        S      0:00 [ksoftirqd/2]
-   36 ?        S<     0:00 [kworker/2:0H]
-   37 ?        S      0:00 [watchdog/3]
-   38 ?        S      0:00 [migration/3]
-   39 ?        S      0:00 [ksoftirqd/3]
-   41 ?        S<     0:00 [kworker/3:0H]
-   42 ?        S<     0:00 [khelper]
-   43 ?        S      0:00 [kdevtmpfs]
-   44 ?        S<     0:00 [netns]
-   45 ?        S<     0:00 [writeback]
-   46 ?        S<     0:00 [kintegrityd]
-   47 ?        S<     0:00 [bioset]
-   49 ?        S<     0:00 [kblockd]
-   50 ?        S<     0:00 [ata_sff]
-   51 ?        S      0:00 [khubd]
-   52 ?        S<     0:00 [md]
-   53 ?        S<     0:00 [devfreq_wq]
-   56 ?        S      0:00 [khungtaskd]
-   57 ?        S      0:02 [kswapd0]
-   58 ?        SN     0:00 [ksmd]
-   59 ?        SN     0:03 [khugepaged]
-   60 ?        S      0:00 [fsnotify_mark]
-   61 ?        S      0:00 [ecryptfs-kthrea]
-   62 ?        S<     0:00 [crypto]
-   74 ?        S<     0:00 [kthrotld]
-   98 ?        S<     0:00 [deferwq]
-   99 ?        S<     0:00 [charger_manager]
-  150 ?        S      0:00 [scsi_eh_0]
-  151 ?        S<     0:00 [kpsmoused]
-  152 ?        S      0:00 [scsi_eh_1]
-  153 ?        S      0:00 [scsi_eh_2]
-  170 ?        S      0:03 [jbd2/sda1-8]
-  171 ?        S<     0:00 [ext4-rsv-conver]
-  352 ?        S      0:00 upstart-udev-bridge --daemon
-  369 ?        Ss     0:00 /lib/systemd/systemd-udevd --daemon
-  415 ?        S      0:45 [irq/39-DLL063E:]
-  485 ?        S<     0:00 [cfg80211]
-  487 ?        S      8:43 [irq/61-iwlwifi]
-  523 ?        S<     0:00 [kvm-irqfd-clean]
-  621 ?        S      0:00 [scsi_eh_3]
-  622 ?        S      0:00 [rts5139-control]
-  623 ?        S      0:30 [rts5139-polling]
-  678 ?        S<     0:00 [hd-audio1]
-  689 ?        S<     0:00 [hd-audio0]
-  743 ?        Ss     0:12 dbus-daemon --system --fork
-  754 ?        Ssl    2:00 rsyslogd
-  760 ?        S      0:00 upstart-file-bridge --daemon
-  763 ?        S      0:00 upstart-socket-bridge --daemon
-  839 ?        Ssl    0:00 /usr/sbin/ModemManager
-  867 ?        Ss     0:00 /lib/systemd/systemd-logind
-  869 ?        Ss     0:00 /usr/sbin/bluetoothd
-  874 ?        S<     0:00 [krfcommd]
-  884 ?        S      6:47 avahi-daemon: running [anurag-Inspiron-5447.local]
-  891 ?        S      0:00 avahi-daemon: chroot helper
-  909 ?        Ssl    0:13 NetworkManager
-  915 ?        Sl     0:02 /usr/lib/policykit-1/polkitd --no-debug
-  923 ?        Ss     0:01 /sbin/wpa_supplicant -B -P /run/sendsigs.omit.d/wpasupplicant.pid -u -s -O /var/run/wpa_supplicant
- 1083 tty4     Ss+    0:00 /sbin/getty -8 38400 tty4
- 1087 tty5     Ss+    0:00 /sbin/getty -8 38400 tty5
- 1094 tty2     Ss+    0:00 /sbin/getty -8 38400 tty2
- 1095 tty3     Ss+    0:00 /sbin/getty -8 38400 tty3
- 1099 tty6     Ss+    0:00 /sbin/getty -8 38400 tty6
- 1154 ?        Ss     0:00 /usr/sbin/sshd -D
- 1182 ?        Ss     0:12 /usr/sbin/cups-browsed
- 1190 ?        Ss     0:09 acpid -c /etc/acpi/events -s /var/run/acpid.socket
- 1205 ?        Ss     0:00 cron
- 1207 ?        Ss     0:02 /usr/sbin/irqbalance
- 1215 ?        Ssl    0:17 /usr/sbin/mysqld
- 1297 ?        Ssl    0:01 whoopsie
- 1308 ?        S      0:00 /usr/lib/postgresql/9.3/bin/postgres -D /var/lib/postgresql/9.3/main -c config_file=/etc/postgresql/9.3/main/postgresql.conf
- 1320 ?        SLsl   0:00 lightdm
- 1339 tty7     Ssl+  16:44 /usr/bin/X -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
- 1342 ?        Sl     0:37 /usr/lib/accountsservice/accounts-daemon
- 1409 ?        S      0:02 /usr/sbin/dnsmasq --no-resolv --keep-in-foreground --no-hosts --bind-interfaces --pid-file=/run/sendsigs.omit.d/network-manager.dnsmasq.pid --listen-address=127.0.1.1 --conf-file=/var/run/Networ
- 1448 ?        S      0:00 [kauditd]
- 1748 ?        Ss     0:00 postgres: checkpointer process                                                                                              
- 1749 ?        Ss     0:00 postgres: writer process                                                                                                    
- 1750 ?        Ss     0:00 postgres: wal writer process                                                                                                
- 1751 ?        Ss     0:00 postgres: autovacuum launcher process                                                                                       
- 1752 ?        Ss     0:00 postgres: stats collector process                                                                                           
- 1854 ?        Sl     0:00 lightdm --session-child 12 19
- 2137 ?        Ss     0:00 dictd 1.12.1: 0/0
- 2172 ?        S      0:00 /usr/bin/daemon --name=jenkins --inherit --env=JENKINS_HOME=/var/lib/jenkins --output=/var/log/jenkins/jenkins.log --pidfile=/var/run/jenkins/jenkins.pid -- /usr/bin/java -Djava.awt.headless=tru
- 2174 ?        Sl     1:04 /usr/bin/java -Djava.awt.headless=true -jar /usr/share/jenkins/jenkins.war --webroot=/var/cache/jenkins/war --httpPort=8080 --ajp13Port=-1
- 2327 ?        Ss     0:00 /usr/sbin/kerneloops
- 2351 ?        Ss     0:00 /usr/sbin/nrsysmond -c /etc/newrelic/nrsysmond.cfg -p /var/run/newrelic/nrsysmond.pid
- 2355 ?        Sl     0:48 /usr/sbin/nrsysmond -c /etc/newrelic/nrsysmond.cfg -p /var/run/newrelic/nrsysmond.pid
- 2566 ?        S<     0:00 [iprt-VBoxWQueue]
- 2574 ?        S      0:00 [iprt-VBoxTscThr]
- 2610 ?        Ss     0:01 /usr/sbin/vnstatd -d --pidfile /run/vnstat/vnstat.pid
- 2649 ?        Sl     0:01 /opt/cisco/anyconnect/bin/vpnagentd
- 2685 ?        Ss     0:00 /usr/sbin/apache2 -k start
- 2687 ?        Sl     0:08 /usr/sbin/apache2 -k start
- 2688 ?        Sl     0:08 /usr/sbin/apache2 -k start
- 2822 ?        SLl    0:59 /usr/bin/gnome-keyring-daemon --daemonize --login
- 2824 ?        Ss     0:00 init --user
- 2898 ?        Ss     0:19 dbus-daemon --fork --session --address=unix:abstract=/tmp/dbus-Z5NMtseuei
- 2909 ?        Ss     0:00 upstart-event-bridge
- 2914 ?        Ss     0:00 /usr/lib/x86_64-linux-gnu/hud/window-stack-bridge
- 2934 ?        S      0:02 upstart-dbus-bridge --daemon --session --user --bus-name session
- 2935 ?        S      0:00 upstart-dbus-bridge --daemon --system --user --bus-name system
- 2936 ?        S      0:00 upstart-file-bridge --daemon --user
- 2938 ?        Sl     0:06 /usr/lib/x86_64-linux-gnu/bamf/bamfdaemon
- 2952 ?        Ssl    0:04 /usr/lib/unity-settings-daemon/unity-settings-daemon
- 2954 ?        Ssl    0:06 /usr/lib/x86_64-linux-gnu/hud/hud-service
- 2959 ?        Ssl    0:00 /usr/lib/at-spi2-core/at-spi-bus-launcher --launch-immediately
- 2960 ?        Ssl    0:01 gnome-session --session=ubuntu
- 2966 ?        Ssl    0:29 /usr/lib/unity/unity-panel-service
- 2967 ?        S      0:00 /bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
- 2975 ?        Sl     0:00 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
- 2979 ?        Sl     0:00 /usr/lib/gvfs/gvfsd
- 2985 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
- 3001 ?        Ss     0:00 /usr/bin/perl /usr/share/webmin/miniserv.pl /etc/webmin/miniserv.conf
- 3007 tty1     Ss+    0:00 /sbin/getty -8 38400 tty1
- 3046 ?        Sl     0:00 /usr/lib/x86_64-linux-gnu/indicator-keyboard-service --use-gtk
- 3048 ?        Ssl    0:00 /usr/lib/x86_64-linux-gnu/indicator-messages/indicator-messages-service
- 3049 ?        Ssl    0:00 /usr/lib/x86_64-linux-gnu/indicator-bluetooth/indicator-bluetooth-service
- 3053 ?        Ssl    0:03 /usr/lib/x86_64-linux-gnu/indicator-power/indicator-power-service
- 3054 ?        Ssl    0:00 /usr/lib/x86_64-linux-gnu/indicator-datetime/indicator-datetime-service
- 3056 ?        Ssl    0:01 /usr/lib/x86_64-linux-gnu/indicator-sound/indicator-sound-service
- 3057 ?        Ssl    0:00 /usr/lib/x86_64-linux-gnu/indicator-printers/indicator-printers-service
- 3058 ?        Ssl    0:01 /usr/lib/x86_64-linux-gnu/indicator-session/indicator-session-service
- 3061 ?        Ssl    0:01 /usr/lib/x86_64-linux-gnu/indicator-application/indicator-application-service
- 3077 ?        Sl     0:03 /usr/lib/upower/upowerd
- 3159 ?        S<l    2:08 /usr/bin/pulseaudio --start --log-target=syslog
- 3169 ?        SNl    0:00 /usr/lib/rtkit/rtkit-daemon
- 3316 ?        Sl     0:00 /usr/lib/colord/colord
- 3319 ?        Sl     0:00 /usr/lib/dconf/dconf-service
- 3329 ?        Sl     0:00 /usr/lib/evolution/evolution-source-registry
- 3337 ?        Sl    18:27 compiz
- 3342 ?        Sl     0:09 /usr/lib/x86_64-linux-gnu/notify-osd
- 3349 ?        Sl     0:00 /usr/bin/ibus-daemon --replace --xim --panel disable
- 3374 ?        Sl     0:19 nautilus -n
- 3376 ?        Sl     0:01 light-locker
- 3377 ?        Sl     0:00 /usr/lib/unity-settings-daemon/unity-fallback-mount-helper
- 3379 ?        Sl     0:08 nm-applet
- 3380 ?        Sl     0:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
- 3382 ?        Sl     0:00 /usr/bin/python /usr/bin/blueman-applet
- 3390 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-metadata
- 3400 ?        Sl     0:00 /usr/lib/evolution/evolution-calendar-factory
- 3413 ?        Sl     0:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
- 3423 ?        Sl     0:00 /usr/lib/ibus/ibus-dconf
- 3425 ?        Sl     0:00 /usr/lib/ibus/ibus-x11 --kill-daemon
- 3431 ?        Sl     0:00 /usr/lib/ibus/ibus-engine-simple
- 3436 ?        Sl     0:04 /usr/lib/udisks2/udisksd --no-debug
- 3452 ?        Sl     0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
- 3457 ?        Sl     0:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
- 3461 ?        Sl     0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
- 3466 ?        S      0:00 /usr/lib/x86_64-linux-gnu/gconf/gconfd-2
- 3467 ?        Ssl    1:04 /home/anurag/.dropbox-dist/dropbox-lnx.x86_64-3.14.7/dropbox
- 3487 ?        Sl     0:03 /usr/lib/gvfs/gvfsd-trash --spawner :1.9 /org/gtk/gvfs/exec_spaw/0
- 3525 ?        S      0:00 /usr/bin/obex-data-server --no-daemon 
- 3549 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-burn --spawner :1.9 /org/gtk/gvfs/exec_spaw/1
- 3557 ?        Sl     0:00 telepathy-indicator
- 3571 ?        Sl     0:03 /usr/lib/telepathy/mission-control-5
- 3596 ?        Sl     0:01 zeitgeist-datahub
- 3601 ?        Sl     0:00 /usr/bin/zeitgeist-daemon
- 3607 ?        Sl     0:00 /usr/lib/x86_64-linux-gnu/zeitgeist-fts
- 3618 ?        S      0:00 /bin/cat
- 3627 ?        SLl   51:10 /opt/google/chrome/chrome    
- 3635 ?        S      0:00 cat
- 3636 ?        S      0:00 cat
- 3641 ?        S      0:00 /opt/google/chrome/chrome --type=zygote --enable-crash-reporter=9D785850-9C63-47AF-B6F0-EECB5995E4D7
- 3644 ?        S      0:00 /opt/google/chrome/nacl_helper
- 3646 ?        Sl     0:00 /usr/lib/evolution/3.10/evolution-alarm-notify
- 3649 ?        S      0:00 /opt/google/chrome/chrome --type=zygote --enable-crash-reporter=9D785850-9C63-47AF-B6F0-EECB5995E4D7
- 3689 ?        Sl    31:31 /opt/google/chrome/chrome --type=gpu-process --channel=3627.0.220911595 --enable-crash-reporter=9D785850-9C63-47AF-B6F0-EECB5995E4D7 --supports-dual-gpus=false --gpu-driver-bug-workarounds=2,52 
- 3714 ?        S      0:00 /opt/google/chrome/chrome --type=gpu-broker                                                                                                                                                       
- 3826 ?        Sl     0:00 /opt/google/chrome/chrome --type=renderer --lang=en-US --force-fieldtrials=AffiliationBasedMatching/EnabledThroughFieldTrial/AppBannerTriggering/Aggressive/AutofillProfileOrderByFrecency/Enabled
- 3833 ?        Sl     5:21 /opt/google/chrome/chrome --type=renderer --lang=en-US --force-fieldtrials=AffiliationBasedMatching/EnabledThroughFieldTrial/AppBannerTriggering/Aggressive/AutofillProfileOrderByFrecency/Enabled
- 3836 ?        Sl     8:22 /opt/google/chrome/chrome --type=renderer --lang=en-US --force-fieldtrials=AffiliationBasedMatching/EnabledThroughFieldTrial/AppBannerTriggering/Aggressive/AutofillProfileOrderByFrecency/Enabled
- 3839 ?        Sl     0:52 /opt/google/chrome/chrome --type=renderer --lang=en-US --force-fieldtrials=AffiliationBasedMatching/EnabledThroughFieldTrial/AppBannerTriggering/Aggressive/AutofillProfileOrderByFrecency/Enabled
- 3842 ?        Sl     0:00 /opt/google/chrome/chrome --type=renderer --lang=en-US --force-fieldtrials=AffiliationBasedMatching/EnabledThroughFieldTrial/AppBannerTriggering/Aggressive/AutofillProfileOrderByFrecency/Enabled
- 3848 ?        Sl     0:04 /opt/google/chrome/chrome --type=renderer --lang=en-US --force-fieldtrials=AffiliationBasedMatching/EnabledThroughFieldTrial/AppBannerTriggering/Aggressive/AutofillProfileOrderByFrecency/Enabled
- 3851 ?        Sl     0:01 /opt/google/chrome/chrome --type=renderer --lang=en-US --force-fieldtrials=AffiliationBasedMatching/EnabledThroughFieldTrial/AppBannerTriggering/Aggressive/AutofillProfileOrderByFrecency/Enabled
- 3854 ?        Sl     0:07 /opt/google/chrome/chrome --type=renderer --lang=en-US --force-fieldtrials=AffiliationBasedMatching/EnabledThroughFieldTrial/AppBannerTriggering/Aggressive/AutofillProfileOrderByFrecency/Enabled
- 3857 ?        Sl     0:02 /opt/google/chrome/chrome --type=renderer --lang=en-US --force-fieldtrials=AffiliationBasedMatching/EnabledThroughFieldTrial/AppBannerTriggering/Aggressive/AutofillProfileOrderByFrecency/Enabled
- 3884 ?        Sl     5:22 /opt/google/chrome/chrome --type=renderer --lang=en-US --force-fieldtrials=AffiliationBasedMatching/EnabledThroughFieldTrial/AppBannerTriggering/Aggressive/AutofillProfileOrderByFrecency/Enabled
- 3891 ?        Sl     0:01 /opt/google/chrome/chrome --type=renderer --lang=en-US --force-fieldtrials=AffiliationBasedMatching/EnabledThroughFieldTrial/AppBannerTriggering/Aggressive/AutofillProfileOrderByFrecency/Enabled
- 3929 ?        Sl     3:24 /opt/google/chrome/chrome --type=renderer --lang=en-US --force-fieldtrials=AffiliationBasedMatching/EnabledThroughFieldTrial/AppBannerTriggering/Aggressive/AutofillProfileOrderByFrecency/Enabled
- 3945 ?        Sl     0:00 update-notifier
- 3953 ?        Sl     3:21 /opt/google/chrome/chrome --type=renderer --lang=en-US --force-fieldtrials=*AffiliationBasedMatching/EnabledThroughFieldTrial/AppBannerTriggering/Aggressive/AutofillProfileOrderByFrecency/Enable
- 3977 ?        Sl     4:10 /opt/google/chrome/chrome --type=renderer --lang=en-US --force-fieldtrials=*AffiliationBasedMatching/EnabledThroughFieldTrial/AppBannerTriggering/Aggressive/AutofillProfileOrderByFrecency/Enable
- 3983 ?        Sl     0:41 /opt/google/chrome/chrome --type=renderer --lang=en-US --force-fieldtrials=*AffiliationBasedMatching/EnabledThroughFieldTrial/AppBannerTriggering/Aggressive/AutofillProfileOrderByFrecency/Enable
- 3995 ?        Sl     0:04 /opt/google/chrome/chrome --type=renderer --lang=en-US --force-fieldtrials=*AffiliationBasedMatching/EnabledThroughFieldTrial/AppBannerTriggering/Aggressive/AutofillProfileOrderByFrecency/Enable
- 4466 ?        Sl     0:00 /usr/lib/x86_64-linux-gnu/deja-dup/deja-dup-monitor
- 5392 ?        Sl     0:00 /usr/lib/gvfs/gvfsd-http --spawner :1.9 /org/gtk/gvfs/exec_spaw/2
- 7581 ?        S<     0:00 [kworker/1:1H]
- 7582 ?        S<     0:00 [kworker/2:1H]
- 7583 ?        S<     0:00 [kworker/3:1H]
- 8842 ?        S      0:10 syndaemon -i 1.0 -t -K -R
-10029 ?        Ss     0:07 /usr/sbin/cupsd -f
-11707 ?        S<     0:01 [kworker/u17:1]
-13909 ?        Sl     0:24 gnome-terminal
-13913 ?        S      0:00 gnome-pty-helper
-13914 pts/0    Ss     0:01 -bash
-20865 ?        S      0:00 [irq/63-mei_me]
-20936 ?        S<     0:00 [hci0]
-20937 ?        S<     0:00 [hci0]
-21455 ?        S      0:00 /sbin/dhclient -d -sf /usr/lib/NetworkManager/nm-dhcp-client.action -pf /run/sendsigs.omit.d/network-manager.dhclient-wlan0.pid -lf /var/lib/NetworkManager/dhclient-45802697-02ac-4433-b7c7-179c1
-26151 ?        S<     0:00 [kworker/u17:0]
-26518 ?        Sl     0:08 /opt/google/chrome/chrome --type=renderer --lang=en-US --force-fieldtrials=*AffiliationBasedMatching/EnabledThroughFieldTrial/AppBannerTriggering/Aggressive/*AutofillProfileOrderByFrecency/Enabl
-27238 pts/0    T      0:00 sl
-27722 ?        S      0:02 [kworker/0:1]
-27725 ?        Sl     0:01 /opt/google/chrome/chrome --type=renderer --lang=en-US --force-fieldtrials=*AffiliationBasedMatching/EnabledThroughFieldTrial/AppBannerTriggering/Aggressive/*AutofillProfileOrderByFrecency/Enabl
-28070 ?        S      0:02 [kworker/3:2]
-28202 ?        Sl     0:18 /opt/google/chrome/chrome --type=renderer --lang=en-US --force-fieldtrials=*AffiliationBasedMatching/EnabledThroughFieldTrial/AppBannerTriggering/Aggressive/*AutofillProfileOrderByFrecency/Enabl
-29175 ?        S      0:02 [kworker/2:3]
-29178 ?        S      0:01 [kworker/1:0]
-29498 pts/0    S+     0:00 screen
-29499 ?        Rs     0:00 SCREEN
-29500 pts/13   Ss     0:00 /bin/bash
-29567 pts/23   Ss+    0:00 /bin/bash
-29837 pts/13   S+     0:00 script
-29838 pts/13   R+     0:00 script
-29839 pts/24   Ss     0:00 bash -i
-30221 ?        S      0:00 [kworker/u16:0]
-30346 ?        S      0:00 [kworker/1:1]
-30435 ?        S      0:00 [kworker/u16:3]
-30469 ?        S      0:00 [kworker/0:2]
-30538 ?        Rl     6:20 /opt/google/chrome/chrome --type=renderer --lang=en-US --force-fieldtrials=*AffiliationBasedMatching/EnabledThroughFieldTrial/AppBannerTriggering/Aggressive/*AutofillProfileOrderByFrecency/Enabl
-30630 ?        S      0:00 [kworker/3:1]
-30659 ?        Sl     0:05 /opt/google/chrome/chrome --type=renderer --lang=en-US --force-fieldtrials=*AffiliationBasedMatching/EnabledThroughFieldTrial/AppBannerTriggering/Aggressive/*AutofillProfileOrderByFrecency/Enabl
-30682 ?        S      0:00 [kworker/2:0]
-30694 ?        S      0:00 [kworker/u16:1]
-30719 ?        S      0:00 [kworker/1:2]
-30762 ?        Sl     0:00 /opt/google/chrome/chrome --type=renderer --lang=en-US --force-fieldtrials=*AffiliationBasedMatching/EnabledThroughFieldTrial/AppBannerTriggering/Aggressive/*AutofillProfileOrderByFrecency/Enabl
-30776 pts/24   R+     0:00 ps ax
-prac:ps axclear[3Pps[1Psclear[3Pptclear[Kgrep "barry wood" shortlist [C[C[C[C[Cc[Kgrep barry wood shortlist [C[C[C[C[Cc[Kgrep "director" shortlist archive.tar [C[C[C[C[Cc[Kwho | grep "pts/23"[C[C[C[C[Cl[Kclear[Kat foo[C[C[C[C[C[18@who | grep "pts/23" >[C[C[C[C0[K[C[C[C[C[C[C[C[C[Kclear[3Plsclearat foo[C[C[C[C[C[16@who | grep anurag >[C[C[C[C[C[C[C[C[Cclear[Kwhatis who[C[C[C[C[C[5Pclear[2Pwhoclear[1Pexitclearls -l prac[Kclearl[Kcle[1Pclclear[3Plsclear[3Plsclearl[Kclear[3Plsclear[Kuname -v |tr -s " " |cut -d" " -f31234[K[K[K4[C[C[C[C[Cc[Kle[1Pcuname -v | cut -d" " -f48[C[C[C[C[C[C[C[C[C[C[C[C[C[Krns-help[C[C[C[C[C[7Pclearman whoami[C[C[C[C[C[2Puname -a[C[C[C[C[Cc[Kuame -a[C[C[C[C[C[2Pclearuname --all[C[C[C[C[C[2Pman uname[C[C[C[C[C[4Pclearuname -l[C[C[C[C[C[3Pclearwhatis whoami[C[C[C[C[C[8Pclearwhoami[1Pclearusername[C[C[C[C[Cc[Klusernme[C[C[C[C[C[2Pclear[1Puserclearunameclearwhoamio[1Pclearwho am i[C[C[C[C[Cc[Klwo als -ld trees[C[C[C[C[Cc[Kls -l trees[C[C[C[C[C[6Pcd ..umaskclear[2Puma[2Pchmod -R 755 pracumask]c][C[C[C[C[Cls -l[Kclearls -l[Kcleard prac/[3Plearhmod -R 755 prac[C[C[C[C[C[Cd ..[K[3Plscd prac/[3Plearsudo chmod -R 777 prac[C[C[C[C[C[14Pcd prac/[C[C[C[C[Csudo chmod -R 644 prac[C[C[C[C[Ccd ..[K[3Plscd prac/[C[C[C[C[Csudo chmod -R 777 prac[C[C[C[C[C[14Pcd prac/[C[C[C[C[C[15@sudo chmod -R 666[C[C[C[C[C[C[C[C[C[C[Cclear[Ksudo cd prac/[C[C[C[C[C[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[15@sudo chmod -R 664[C[C[C[C[C[C[C[C[C[C[Cls[Kcleard Exercise\ Files/[C[C[C[C[Cls[Kcd ..prac/[Ksudo chmod -R 644 prac/[C[C[C[C[C[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cd ..[Ksudo ls -l[C[C[C[C[C[5P[C[C[C[C[Cclear
-[H[Jprac:man os[K[Kps
-[?1049h[?1h=PS(1)                                                                                                User Commands                                                                                                PS(1)[m
-[m
-[1mNAME[0m[m
-       ps - report a snapshot of the current processes.[m
-[m
-[1mSYNOPSIS[0m[m
-       [1mps[0m [[4moptions[24m][m
-[m
-[1mDESCRIPTION[0m[m
-       [1mps[0m displays information about a selection of the active processes.  If you want a repetitive update of the selection and the displayed information, use [4mtop[24m(1) instead.[m
-[m
-       This version of [1mps[0m accepts several kinds of options:[m
-[m
-       1   UNIX options, which may be grouped and must be preceded by a dash.[m
-       2   BSD options, which may be grouped and must not be used with a dash.[m
-       3   GNU long options, which are preceded by two dashes.[m
-[m
-       Options of different types may be freely mixed, but conflicts can appear.  There are some synonymous options, which are functionally identical, due to the many standards and [1mps[0m implementations that this [1mps[0m is[m
-       compatible with.[m
-[m
-       Note that "[1mps[0m [1m-aux[0m" is distinct from "[1mps[0m [1maux[0m".  The POSIX and UNIX standards require that "[1mps[0m [1m-aux[0m" print all processes owned by a user named "x", as well as printing all processes that would be selected by[m
-       the [1m-a[0m option.  If the user named "x" does not exist, this [1mps[0m may interpret the command as "[1mps[0m [1maux[0m" instead and print a warning.  This behavior is intended to aid in transitioning old scripts and habits.  It[m
-       is fragile, subject to change, and thus should not be relied upon.[m
-[m
-       By default, [1mps[0m selects all processes with the same effective user ID (euid=EUID) as the current user and associated with the same terminal as the invoker.  It displays the process ID (pid=PID), the terminal[m
-       associated with the process (tname=TTY), the cumulated CPU time in [DD-]hh:mm:ss format (time=TIME), and the executable name (ucmd=CMD).  Output is unsorted by default.[m
-[m
-       The use of BSD-style options will add process state (stat=STAT) to the default display and show the command args (args=COMMAND) instead of the executable name.  You can override this with the [1mPS_FORMAT[0m[m
-       environment variable. The use of BSD-style options will also change the process selection to include processes on other terminals (TTYs) that are owned by you; alternately, this may be described as setting[m
-       the selection to be the set of all processes filtered to exclude processes owned by other users or not on a terminal.  These effects are not considered when options are described as being "identical" below,[m
-       so [1m-M[0m will be considered identical to [1mZ[0m and so on.[m
-[m
-       Except as described below, process selection options are additive.  The default selection is discarded, and then the selected processes are added to the set of processes to be displayed.  A process will thus[m
-       be shown if it meets any of the given selection criteria.[m
-[m
-[1mEXAMPLES[0m[m
-       To see every process on the system using standard syntax:[m
-          [1mps[0m [1m-e[0m[m
-          [1mps[0m [1m-ef[0m[m
-          [1mps[0m [1m-eF[0m[m
-          [1mps[0m [1m-ely[0m[m
-[m
-       To see every process on the system using BSD syntax:[m
-          [1mps[0m [1max[0m[m
-          [1mps[0m [1maxu[0m[m
-[m
-       To print a process tree:[m
-          [1mps[0m [1m-ejH[0m[m
-          [1mps[0m [1maxjf[0m[m
-[m
-       To get info about threads:[m
-          [1mps[0m [1m-eLf[0m[m
-          [1mps[0m [1maxms[0m[m
-[m
-       To get security info:[m
-          [1mps[0m [1m-eo[0m [1meuser,ruser,suser,fuser,f,comm,label[0m[m
-          [1mps[0m [1maxZ[0m[m
-          [1mps[0m [1m-eM[0m[m
-[m
-       To see every process running as root (real & effective ID) in user format:[m
-[3m Manual page ps(1) line 1 (press h for help or q to quit)[23m[K[K          [1mps[0m [1m-U[0m [1mroot[0m [1m-u[0m [1mroot[0m [1mu[0m[m
-[m
-       To see every process with a user-defined format:[m
-          [1mps[0m [1m-eo[0m [1mpid,tid,class,rtprio,ni,pri,psr,pcpu,stat,wchan:14,comm[0m[m
-          [1mps[0m [1maxo[0m [1mstat,euid,ruid,tty,tpgid,sess,pgrp,ppid,pid,pcpu,comm[0m[m
-          [1mps[0m [1m-Ao[0m [1mpid,tt,user,fname,tmout,f,wchan[0m[m
-[m
-       Print only the process IDs of syslogd:[m
-          [1mps[0m [1m-C[0m [1msyslogd[0m [1m-o[0m [1mpid=[0m[m
-[m
-       Print only the name of PID 42:[m
-          [1mps[0m [1m-p[0m [1m42[0m [1m-o[0m [1mcomm=[0m[m
-[m
-[1mSIMPLE[0m [1mPROCESS[0m [1mSELECTION[0m[m
-       [1ma[0m      Lift the BSD-style "only yourself" restriction, which is imposed upon the set of all processes when some BSD-style (without "-") options are used or when the [1mps[0m personality setting is BSD-like.  The[m
-              set of processes selected in this manner is in addition to the set of processes selected by other means.  An alternate description is that this option causes [1mps[0m to list all processes with a terminal[m
-              (tty), or to list all processes when used together with the [1mx[0m option.[m
-[m
-       [1m-A[0m     Select all processes.  Identical to [1m-e[0m.[m
-[m
-       [1m-a[0m     Select all processes except both session leaders (see [4mgetsid[24m(2)) and processes not associated with a terminal.[m
-[m
-       [1m-d[0m     Select all processes except session leaders.[m
-[m
-       [1m--deselect[0m[m
-              Select all processes except those that fulfill the specified conditions (negates the selection).  Identical to [1m-N[0m.[m
-[m
-       [1m-e[0m     Select all processes.  Identical to [1m-A[0m.[m
-[m
-       [1mg[0m      Really all, even session leaders.  This flag is obsolete and may be discontinued in a future release.  It is normally implied by the [1ma[0m flag, and is only useful when operating in the sunos4 personality.[m
-[m
-       [1m-N[0m     Select all processes except those that fulfill the specified conditions (negates the selection).  Identical to [1m--deselect[0m.[m
-[m
-       [1mT[0m      Select all processes associated with this terminal.  Identical to the [1mt[0m option without any argument.[m
-[m
-       [1mr[0m      Restrict the selection to only running processes.[m
-[m
-       [1mx[0m      Lift the BSD-style "must have a tty" restriction, which is imposed upon the set of all processes when some BSD-style (without "-") options are used or when the [1mps[0m personality setting is BSD-like.  The[m
-              set of processes selected in this manner is in addition to the set of processes selected by other means.  An alternate description is that this option causes [1mps[0m to list all processes owned by you (same[m
-              EUID as [1mps[0m), or to list all processes when used together with the [1ma[0m option.[m
-[m
-[1mPROCESS[0m [1mSELECTION[0m [1mBY[0m [1mLIST[0m[m
-       These options accept a single argument in the form of a blank-separated or comma-separated list.  They can be used multiple times.  For example: [1mps[0m [1m-p[0m [1m"1[0m [1m2"[0m [1m-p[0m [1m3,4[0m[m
-[m
-       -[4m123[24m   Identical to [1m--pid[0m [4m123[24m.[m
-[m
-       [4m123[24m    Identical to [1m--pid[0m [4m123[24m.[m
-[m
-       [1m-C[0m [4mcmdlist[24m[m
-              Select by command name.  This selects the processes whose executable name is given in [4mcmdlist[24m.[m
-[m
-       [1m-G[0m [4mgrplist[24m[m
-              Select by real group ID (RGID) or name.  This selects the processes whose real group name or ID is in the [4mgrplist[24m list.  The real group ID identifies the group of the user who created the process, see[m
-              [4mgetgid[24m(2).[m
-[m
-       [1m-g[0m [4mgrplist[24m[m
-              Select by session OR by effective group name.  Selection by session is specified by many standards, but selection by effective group is the logical behavior that several other operating systems use.[m
-              This [1mps[0m will select by session when the list is completely numeric (as sessionsare).  Group ID numbers will work only when some group names are also specified.  See the [1m-s[0m and [1m--group[0m options.[m
-[m
-       [1m--Group[0m [4mgrplist[24m[m
-[3m Manual page ps(1) line 63 (press h for help or q to quit)[23m[K[K[?1l>[?1049lprac:ps -eJH
-error: unsupported SysV option
+Script started on Mon 29 Feb 2016 10:54:57 AM EST
+]0;anurag@anurag-Inspiron-5447: ~/Lynda/bash_ninja/Ex_Files_UaR_BashScripts/Exercise Files/pracprac:grep [K[K[K[K[Kvim sysin[K[K[K[K[K[K[K[Kcat [K[K[K[K[Kcat /proc/bu
+buddyinfo  bus/       
+]0;anurag@anurag-Inspiron-5447: ~/Lynda/bash_ninja/Ex_Files_UaR_BashScripts/Exercise Files/pracprac:cat /proc/bus/input/devices 
+I: Bus=0019 Vendor=0000 Product=0005 Version=0000
+N: Name="Lid Switch"
+P: Phys=PNP0C0D/button/input0
+S: Sysfs=/devices/LNXSYSTM:00/device:00/PNP0A08:00/device:02/PNP0C0D:00/input/input0
+U: Uniq=
+H: Handlers=event0 
+B: PROP=0
+B: EV=21
+B: SW=1
 
-Usage:
- ps [options]
+I: Bus=0019 Vendor=0000 Product=0001 Version=0000
+N: Name="Power Button"
+P: Phys=PNP0C0C/button/input0
+S: Sysfs=/devices/LNXSYSTM:00/device:00/PNP0A08:00/device:02/PNP0C0C:00/input/input1
+U: Uniq=
+H: Handlers=kbd event1 
+B: PROP=0
+B: EV=3
+B: KEY=10000000000000 0
 
- Try 'ps --help <simple|list|output|threads|misc|all>'
-  or 'ps --help <s|l|o|t|m|a>'
- for additional help text.
+I: Bus=0019 Vendor=0000 Product=0003 Version=0000
+N: Name="Sleep Button"
+P: Phys=PNP0C0E/button/input0
+S: Sysfs=/devices/LNXSYSTM:00/device:00/PNP0A08:00/device:02/PNP0C0E:00/input/input2
+U: Uniq=
+H: Handlers=kbd event2 
+B: PROP=0
+B: EV=3
+B: KEY=4000 0 0
 
-For more details see ps(1).
-prac:clear
-[H[Jprac:ps -eJH
-error: unsupported SysV option
+I: Bus=0019 Vendor=0000 Product=0001 Version=0000
+N: Name="Power Button"
+P: Phys=LNXPWRBN/button/input0
+S: Sysfs=/devices/LNXSYSTM:00/LNXPWRBN:00/input/input3
+U: Uniq=
+H: Handlers=kbd event3 
+B: PROP=0
+B: EV=3
+B: KEY=10000000000000 0
 
-Usage:
- ps [options]
+I: Bus=0011 Vendor=0001 Product=0001 Version=ab41
+N: Name="AT Translated Set 2 keyboard"
+P: Phys=isa0060/serio0/input0
+S: Sysfs=/devices/platform/i8042/serio0/input/input4
+U: Uniq=
+H: Handlers=sysrq kbd event4 
+B: PROP=0
+B: EV=120013
+B: KEY=1100f02902000 8380307cf910f001 feffffdfffefffff fffffffffffffffe
+B: MSC=10
+B: LED=7
 
- Try 'ps --help <simple|list|output|threads|misc|all>'
-  or 'ps --help <s|l|o|t|m|a>'
- for additional help text.
+I: Bus=0003 Vendor=046d Product=c534 Version=0111
+N: Name="Logitech USB Receiver"
+P: Phys=usb-0000:00:14.0-2/input0
+S: Sysfs=/devices/pci0000:00/0000:00:14.0/usb2/2-2/2-2:1.0/input/input7
+U: Uniq=
+H: Handlers=sysrq kbd event5 
+B: PROP=0
+B: EV=120013
+B: KEY=1000000000007 ff800000000007ff febeffdfffefffff fffffffffffffffe
+B: MSC=10
+B: LED=1f
 
-For more details see ps(1).
-prac:ps --help
+I: Bus=0003 Vendor=046d Product=c534 Version=0111
+N: Name="Logitech USB Receiver"
+P: Phys=usb-0000:00:14.0-2/input1
+S: Sysfs=/devices/pci0000:00/0000:00:14.0/usb2/2-2/2-2:1.1/input/input8
+U: Uniq=
+H: Handlers=kbd mouse0 event6 
+B: PROP=0
+B: EV=1f
+B: KEY=4837fff072ff32d bf54444600000000 ffff0001 20f908b17c000 677bfad941dfed 9ed68000004400 10000002
+B: REL=1c3
+B: ABS=100000000
+B: MSC=10
 
-Usage:
- ps [options]
+I: Bus=0011 Vendor=0002 Product=0007 Version=01b1
+N: Name="SynPS/2 Synaptics TouchPad"
+P: Phys=isa0060/serio1/input0
+S: Sysfs=/devices/platform/i8042/serio1/input/input6
+U: Uniq=
+H: Handlers=mouse1 event7 
+B: PROP=5
+B: EV=b
+B: KEY=e520 610000 0 0 0 0
+B: ABS=660800011000003
 
- Try 'ps --help <simple|list|output|threads|misc|all>'
-  or 'ps --help <s|l|o|t|m|a>'
- for additional help text.
+I: Bus=0018 Vendor=06cb Product=2934 Version=0100
+N: Name="DLL063E:00 06CB:2934"
+P: Phys=
+S: Sysfs=/devices/pci0000:00/INT33C3:00/i2c-0/i2c-DLL063E:00/input/input9
+U: Uniq=
+H: Handlers=mouse2 event8 
+B: PROP=5
+B: EV=b
+B: KEY=e520 10000 0 0 0 0
+B: ABS=673800001000003
 
-For more details see ps(1).
-prac:clear
-[H[Jprac:man ps
-[?1049h[?1h=PS(1)                                                                                                User Commands                                                                                                PS(1)[m
-[m
-[1mNAME[0m[m
-       ps - report a snapshot of the current processes.[m
-[m
-[1mSYNOPSIS[0m[m
-       [1mps[0m [[4moptions[24m][m
-[m
-[1mDESCRIPTION[0m[m
-       [1mps[0m displays information about a selection of the active processes.  If you want a repetitive update of the selection and the displayed information, use [4mtop[24m(1) instead.[m
-[m
-       This version of [1mps[0m accepts several kinds of options:[m
-[m
-       1   UNIX options, which may be grouped and must be preceded by a dash.[m
-       2   BSD options, which may be grouped and must not be used with a dash.[m
-       3   GNU long options, which are preceded by two dashes.[m
-[m
-       Options of different types may be freely mixed, but conflicts can appear.  There are some synonymous options, which are functionally identical, due to the many standards and [1mps[0m implementations that this [1mps[0m is[m
-       compatible with.[m
-[m
-       Note that "[1mps[0m [1m-aux[0m" is distinct from "[1mps[0m [1maux[0m".  The POSIX and UNIX standards require that "[1mps[0m [1m-aux[0m" print all processes owned by a user named "x", as well as printing all processes that would be selected by[m
-       the [1m-a[0m option.  If the user named "x" does not exist, this [1mps[0m may interpret the command as "[1mps[0m [1maux[0m" instead and print a warning.  This behavior is intended to aid in transitioning old scripts and habits.  It[m
-       is fragile, subject to change, and thus should not be relied upon.[m
-[m
-       By default, [1mps[0m selects all processes with the same effective user ID (euid=EUID) as the current user and associated with the same terminal as the invoker.  It displays the process ID (pid=PID), the terminal[m
-       associated with the process (tname=TTY), the cumulated CPU time in [DD-]hh:mm:ss format (time=TIME), and the executable name (ucmd=CMD).  Output is unsorted by default.[m
-[m
-       The use of BSD-style options will add process state (stat=STAT) to the default display and show the command args (args=COMMAND) instead of the executable name.  You can override this with the [1mPS_FORMAT[0m[m
-       environment variable. The use of BSD-style options will also change the process selection to include processes on other terminals (TTYs) that are owned by you; alternately, this may be described as setting[m
-       the selection to be the set of all processes filtered to exclude processes owned by other users or not on a terminal.  These effects are not considered when options are described as being "identical" below,[m
-       so [1m-M[0m will be considered identical to [1mZ[0m and so on.[m
-[m
-       Except as described below, process selection options are additive.  The default selection is discarded, and then the selected processes are added to the set of processes to be displayed.  A process will thus[m
-       be shown if it meets any of the given selection criteria.[m
-[m
-[1mEXAMPLES[0m[m
-       To see every process on the system using standard syntax:[m
-          [1mps[0m [1m-e[0m[m
-          [1mps[0m [1m-ef[0m[m
-          [1mps[0m [1m-eF[0m[m
-          [1mps[0m [1m-ely[0m[m
-[m
-       To see every process on the system using BSD syntax:[m
-          [1mps[0m [1max[0m[m
-          [1mps[0m [1maxu[0m[m
-[m
-       To print a process tree:[m
-          [1mps[0m [1m-ejH[0m[m
-          [1mps[0m [1maxjf[0m[m
-[m
-       To get info about threads:[m
-          [1mps[0m [1m-eLf[0m[m
-          [1mps[0m [1maxms[0m[m
-[m
-       To get security info:[m
-          [1mps[0m [1m-eo[0m [1meuser,ruser,suser,fuser,f,comm,label[0m[m
-          [1mps[0m [1maxZ[0m[m
-          [1mps[0m [1m-eM[0m[m
-[m
-       To see every process running as root (real & effective ID) in user format:[m
-[3m Manual page ps(1) line 1 (press h for help or q to quit)[23m[K[K[?1l>[?1049lprac:ps -ejH
-  PID  PGID   SID TTY          TIME CMD
-    2     0     0 ?        00:00:00 kthreadd
-    3     0     0 ?        00:00:00   ksoftirqd/0
-    5     0     0 ?        00:00:00   kworker/0:0H
-    7     0     0 ?        00:00:52   rcu_sched
-    8     0     0 ?        00:00:17   rcuos/0
-    9     0     0 ?        00:00:11   rcuos/1
-   10     0     0 ?        00:00:37   rcuos/2
-   11     0     0 ?        00:00:15   rcuos/3
-   12     0     0 ?        00:00:00   rcuos/4
-   13     0     0 ?        00:00:00   rcuos/5
-   14     0     0 ?        00:00:00   rcuos/6
-   15     0     0 ?        00:00:00   rcuos/7
-   16     0     0 ?        00:00:00   rcu_bh
-   17     0     0 ?        00:00:00   rcuob/0
-   18     0     0 ?        00:00:00   rcuob/1
-   19     0     0 ?        00:00:00   rcuob/2
-   20     0     0 ?        00:00:00   rcuob/3
-   21     0     0 ?        00:00:00   rcuob/4
-   22     0     0 ?        00:00:00   rcuob/5
-   23     0     0 ?        00:00:00   rcuob/6
-   24     0     0 ?        00:00:00   rcuob/7
-   25     0     0 ?        00:00:00   migration/0
-   26     0     0 ?        00:00:00   watchdog/0
-   27     0     0 ?        00:00:00   watchdog/1
-   28     0     0 ?        00:00:00   migration/1
-   29     0     0 ?        00:00:00   ksoftirqd/1
-   31     0     0 ?        00:00:00   kworker/1:0H
-   32     0     0 ?        00:00:00   watchdog/2
-   33     0     0 ?        00:00:00   migration/2
-   34     0     0 ?        00:00:00   ksoftirqd/2
-   36     0     0 ?        00:00:00   kworker/2:0H
-   37     0     0 ?        00:00:00   watchdog/3
-   38     0     0 ?        00:00:00   migration/3
-   39     0     0 ?        00:00:00   ksoftirqd/3
-   41     0     0 ?        00:00:00   kworker/3:0H
-   42     0     0 ?        00:00:00   khelper
-   43     0     0 ?        00:00:00   kdevtmpfs
-   44     0     0 ?        00:00:00   netns
-   45     0     0 ?        00:00:00   writeback
-   46     0     0 ?        00:00:00   kintegrityd
-   47     0     0 ?        00:00:00   bioset
-   49     0     0 ?        00:00:00   kblockd
-   50     0     0 ?        00:00:00   ata_sff
-   51     0     0 ?        00:00:00   khubd
-   52     0     0 ?        00:00:00   md
-   53     0     0 ?        00:00:00   devfreq_wq
-   56     0     0 ?        00:00:00   khungtaskd
-   57     0     0 ?        00:00:02   kswapd0
-   58     0     0 ?        00:00:00   ksmd
-   59     0     0 ?        00:00:03   khugepaged
-   60     0     0 ?        00:00:00   fsnotify_mark
-   61     0     0 ?        00:00:00   ecryptfs-kthrea
-   62     0     0 ?        00:00:00   crypto
-   74     0     0 ?        00:00:00   kthrotld
-   98     0     0 ?        00:00:00   deferwq
-   99     0     0 ?        00:00:00   charger_manager
-  150     0     0 ?        00:00:00   scsi_eh_0
-  151     0     0 ?        00:00:00   kpsmoused
-  152     0     0 ?        00:00:00   scsi_eh_1
-  153     0     0 ?        00:00:00   scsi_eh_2
-  170     0     0 ?        00:00:03   jbd2/sda1-8
-  171     0     0 ?        00:00:00   ext4-rsv-conver
-  415     0     0 ?        00:00:45   irq/39-DLL063E:
-  485     0     0 ?        00:00:00   cfg80211
-  487     0     0 ?        00:08:43   irq/61-iwlwifi
-  523     0     0 ?        00:00:00   kvm-irqfd-clean
-  621     0     0 ?        00:00:00   scsi_eh_3
-  622     0     0 ?        00:00:00   rts5139-control
-  623     0     0 ?        00:00:30   rts5139-polling
-  678     0     0 ?        00:00:00   hd-audio1
-  689     0     0 ?        00:00:00   hd-audio0
-  874     0     0 ?        00:00:00   krfcommd
- 1448     0     0 ?        00:00:00   kauditd
- 2566     0     0 ?        00:00:00   iprt-VBoxWQueue
- 2574     0     0 ?        00:00:00   iprt-VBoxTscThr
- 7581     0     0 ?        00:00:00   kworker/1:1H
- 7582     0     0 ?        00:00:00   kworker/2:1H
- 7583     0     0 ?        00:00:00   kworker/3:1H
-11707     0     0 ?        00:00:01   kworker/u17:1
-20865     0     0 ?        00:00:00   irq/63-mei_me
-20936     0     0 ?        00:00:00   hci0
-20937     0     0 ?        00:00:00   hci0
-26151     0     0 ?        00:00:00   kworker/u17:0
-27722     0     0 ?        00:00:02   kworker/0:1
-28070     0     0 ?        00:00:02   kworker/3:2
-29175     0     0 ?        00:00:02   kworker/2:3
-29178     0     0 ?        00:00:01   kworker/1:0
-30221     0     0 ?        00:00:00   kworker/u16:0
-30346     0     0 ?        00:00:00   kworker/1:1
-30435     0     0 ?        00:00:00   kworker/u16:3
-30469     0     0 ?        00:00:00   kworker/0:2
-30630     0     0 ?        00:00:00   kworker/3:1
-30682     0     0 ?        00:00:00   kworker/2:0
-30694     0     0 ?        00:00:00   kworker/u16:1
-30719     0     0 ?        00:00:00   kworker/1:2
-30779     0     0 ?        00:00:00   kworker/3:0
-    1     1     1 ?        00:00:01 init
-  352   351   351 ?        00:00:00   upstart-udev-br
-  369   369   369 ?        00:00:00   systemd-udevd
-  743   743   743 ?        00:00:12   dbus-daemon
-  754   754   754 ?        00:02:00   rsyslogd
-  760   759   759 ?        00:00:00   upstart-file-br
-  763   761   761 ?        00:00:00   upstart-socket-
-  839   839   839 ?        00:00:00   ModemManager
-  867   867   867 ?        00:00:00   systemd-logind
-  869   869   869 ?        00:00:00   bluetoothd
-  884   883   883 ?        00:06:47   avahi-daemon
-  891   883   883 ?        00:00:00     avahi-daemon
-  909   909   909 ?        00:00:13   NetworkManager
- 1409  1409   909 ?        00:00:02     dnsmasq
-21455 21455   909 ?        00:00:00     dhclient
-  915   743   743 ?        00:00:02   polkitd
-  923   923   923 ?        00:00:01   wpa_supplicant
- 1083  1083  1083 tty4     00:00:00   getty
- 1087  1087  1087 tty5     00:00:00   getty
- 1094  1094  1094 tty2     00:00:00   getty
- 1095  1095  1095 tty3     00:00:00   getty
- 1099  1099  1099 tty6     00:00:00   getty
- 1154  1154  1154 ?        00:00:00   sshd
- 1182  1182  1182 ?        00:00:12   cups-browsed
- 1190  1190  1190 ?        00:00:09   acpid
- 1205  1205  1205 ?        00:00:00   cron
- 1207  1207  1207 ?        00:00:02   irqbalance
- 1215  1215  1215 ?        00:00:17   mysqld
- 1297  1297  1297 ?        00:00:01   whoopsie
- 1308  1261  1261 ?        00:00:00   postgres
- 1748  1748  1748 ?        00:00:00     postgres
- 1749  1749  1749 ?        00:00:00     postgres
- 1750  1750  1750 ?        00:00:00     postgres
- 1751  1751  1751 ?        00:00:00     postgres
- 1752  1752  1752 ?        00:00:00     postgres
- 1320  1320  1320 ?        00:00:00   lightdm
- 1339  1339  1339 tty7     00:16:46     Xorg
- 1854  1320  1320 ?        00:00:00     lightdm
- 2824  2824  2824 ?        00:00:00       init
- 2898  2898  2898 ?        00:00:19         dbus-daemon
- 2909  2909  2909 ?        00:00:00         upstart-event-b
- 2914  2914  2914 ?        00:00:00         window-stack-br
- 2934  2931  2931 ?        00:00:02         upstart-dbus-br
- 2935  2933  2933 ?        00:00:00         upstart-dbus-br
- 2936  2932  2932 ?        00:00:00         upstart-file-br
- 2938  2898  2898 ?        00:00:06         bamfdaemon
- 2952  2952  2952 ?        00:00:04         unity-settings-
- 8842  2952  2952 ?        00:00:10           syndaemon
- 2954  2954  2954 ?        00:00:06         hud-service
- 2959  2959  2959 ?        00:00:00         at-spi-bus-laun
- 2967  2959  2959 ?        00:00:00           dbus-daemon
- 2960  2960  2960 ?        00:00:01         gnome-session
- 3337  2960  2960 ?        00:18:30           compiz
- 3374  2960  2960 ?        00:00:19           nautilus
- 3376  2960  2960 ?        00:00:01           light-locker
- 3377  2960  2960 ?        00:00:00           unity-fallback-
- 3379  2960  2960 ?        00:00:08           nm-applet
- 3380  2960  2960 ?        00:00:00           polkit-gnome-au
- 3382  2960  2960 ?        00:00:00           blueman-applet
- 3557  2960  2960 ?        00:00:00           telepathy-indic
- 3596  2960  2960 ?        00:00:01           zeitgeist-datah
- 3646  2960  2960 ?        00:00:00           evolution-alarm
- 3945  2960  2960 ?        00:00:00           update-notifier
- 4466  2960  2960 ?        00:00:00           deja-dup-monito
- 2966  2966  2966 ?        00:00:29         unity-panel-ser
- 2975  2959  2959 ?        00:00:00         at-spi2-registr
- 2979  2898  2898 ?        00:00:00         gvfsd
- 2985  2898  2898 ?        00:00:00         gvfsd-fuse
- 3046  2898  2898 ?        00:00:00         indicator-keybo
- 3048  3048  3048 ?        00:00:00         indicator-messa
- 3049  3049  3049 ?        00:00:00         indicator-bluet
- 3053  3053  3053 ?        00:00:03         indicator-power
- 3054  3054  3054 ?        00:00:00         indicator-datet
- 3056  3056  3056 ?        00:00:01         indicator-sound
- 3057  3057  3057 ?        00:00:00         indicator-print
- 3058  3058  3058 ?        00:00:01         indicator-sessi
- 3061  3061  3061 ?        00:00:01         indicator-appli
- 3159  3157  3157 ?        00:02:08         pulseaudio
- 3319  2898  2898 ?        00:00:00         dconf-service
- 3329  2898  2898 ?        00:00:00         evolution-sourc
- 3342  2898  2898 ?        00:00:09         notify-osd
- 3349  3349  2898 ?        00:00:00         ibus-daemon
- 3423  3349  2898 ?        00:00:00           ibus-dconf
- 3431  3349  2898 ?        00:00:00           ibus-engine-sim
- 3390  2898  2898 ?        00:00:00         gvfsd-metadata
- 3400  2898  2898 ?        00:00:00         evolution-calen
- 3413  2898  2898 ?        00:00:00         gvfs-udisks2-vo
- 3425  3349  2898 ?        00:00:00         ibus-x11
- 3452  2898  2898 ?        00:00:00         gvfs-afc-volume
- 3457  2898  2898 ?        00:00:00         gvfs-mtp-volume
- 3461  2898  2898 ?        00:00:00         gvfs-gphoto2-vo
- 3466  2898  2898 ?        00:00:00         gconfd-2
- 3467  3467  3467 ?        00:01:04         dropbox
- 3487  2898  2898 ?        00:00:03         gvfsd-trash
- 3525  2898  2898 ?        00:00:00         obex-data-serve
- 3549  2898  2898 ?        00:00:00         gvfsd-burn
- 3571  2898  2898 ?        00:00:03         mission-control
- 3601  2898  2898 ?        00:00:00         zeitgeist-daemo
- 3607  2898  2898 ?        00:00:00         zeitgeist-fts
- 3618  2898  2898 ?        00:00:00           cat
- 3627  2960  2960 ?        00:51:13         chrome
- 3635  2960  2960 ?        00:00:00           cat
- 3636  2960  2960 ?        00:00:00           cat
- 3641  2960  2960 ?        00:00:00           chrome
- 3644  2960  2960 ?        00:00:00             nacl_helper
- 3649  2960  2960 ?        00:00:00             chrome
- 3826  2960  2960 ?        00:00:00               chrome
- 3833  2960  2960 ?        00:05:21               chrome
- 3836  2960  2960 ?        00:08:23               chrome
- 3839  2960  2960 ?        00:00:52               chrome
- 3842  2960  2960 ?        00:00:00               chrome
- 3848  2960  2960 ?        00:00:04               chrome
- 3851  2960  2960 ?        00:00:01               chrome
- 3854  2960  2960 ?        00:00:07               chrome
- 3857  2960  2960 ?        00:00:02               chrome
- 3884  2960  2960 ?        00:05:22               chrome
- 3891  2960  2960 ?        00:00:01               chrome
- 3929  2960  2960 ?        00:03:24               chrome
- 3953  2960  2960 ?        00:03:21               chrome
- 3977  2960  2960 ?        00:04:10               chrome
- 3983  2960  2960 ?        00:00:41               chrome
- 3995  2960  2960 ?        00:00:04               chrome
-26518  2960  2960 ?        00:00:08               chrome
-27725  2960  2960 ?        00:00:01               chrome
-28202  2960  2960 ?        00:00:18               chrome
-30538  2960  2960 ?        00:06:56               chrome
-30659  2960  2960 ?        00:00:05               chrome
- 3689  2960  2960 ?        00:31:37           chrome
- 3714  2960  2960 ?        00:00:00             chrome
- 5392  2898  2898 ?        00:00:00         gvfsd-http
-13909  2952  2952 ?        00:00:24         gnome-terminal
-13913  2952  2952 ?        00:00:00           gnome-pty-helpe
-13914 13914 13914 pts/0    00:00:01           bash
-27238 27238 13914 pts/0    00:00:00             sl
-29498 29498 13914 pts/0    00:00:00             screen
-29499 29499 29499 ?        00:00:00               screen
-29500 29500 29500 pts/13   00:00:00                 bash
-29837 29837 29500 pts/13   00:00:00                   script
-29838 29837 29500 pts/13   00:00:00                     script
-29839 29839 29839 pts/24   00:00:00                       bash
-30824 30824 29839 pts/24   00:00:00                         ps
-29567 29567 29567 pts/23   00:00:00                 bash
- 1342   743   743 ?        00:00:37   accounts-daemon
- 2137  2137  2137 ?        00:00:00   dictd
- 2172  2171  2171 ?        00:00:00   daemon
- 2174  2171  2171 ?        00:01:05     java
- 2327  2327  2327 ?        00:00:00   kerneloops
- 2351  2351  2351 ?        00:00:00   nrsysmond
- 2355  2351  2351 ?        00:00:48     nrsysmond
- 2610  2610  2610 ?        00:00:01   vnstatd
- 2649  2648  2648 ?        00:00:01   vpnagentd
- 2685  2685  2685 ?        00:00:00   apache2
- 2687  2685  2685 ?        00:00:08     apache2
- 2688  2685  2685 ?        00:00:08     apache2
- 2822  2821  2821 ?        00:00:59   gnome-keyring-d
- 3001  3001  3001 ?        00:00:00   miniserv.pl
- 3007  3007  3007 tty1     00:00:00   getty
- 3077   743   743 ?        00:00:03   upowerd
- 3169   743   743 ?        00:00:00   rtkit-daemon
- 3316   743   743 ?        00:00:00   colord
- 3436   743   743 ?        00:00:04   udisksd
-10029 10029 10029 ?        00:00:07   cupsd
-prac:ps -ejH[C[C[C[C[C[1Pman ps[1Pclearps --help[2PeJH[C[C[C[C[C[2Pclearps -eJH[C[C[C[C[C[1Pman ps[1Pclearps axclear[3Pps[1Psclear[3Pptclear[Kgrep "barry wood" shortlist [C[C[C[C[Cc[Kgrep barry wood shortlist [C[C[C[C[Cc[Kgrep "director" shortlist archive.tar [C[C[C[C[Cc[Kwho | grep "pts/23"[C[C[C[C[Cl[Kclear[Kat foo[C[C[C[C[C[18@who | grep "pts/23" >[C[C[C[C0[K[C[C[C[C[C[C[C[C[Kclear[3Plsclearat foo[C[C[C[C[C[16@who | grep anurag >[C[C[C[C[C[C[C[C[Cclear[Kwhatis who[C[C[C[C[C[5Pclear[2Pwhoclear[1Pexitclearls -l prac[Kclearl[Kcle[1Pclclear[3Plsclear[3Plsclearl[Kclear[3Plsclear[Kuname -v |tr -s " " |cut -d" " -f31234[K[K[K4[C[C[C[C[Cc[Kle[1Pcuname -v | cut -d" " -f48[C[C[C[C[C[C[C[C[C[C[C[C[C[Krns-help[C[C[C[C[C[7Pclearman whoami[C[C[C[C[C[2Puname -a[C[C[C[C[Cc[Kuame -a[C[C[C[C[C[2Pclearuname --all[C[C[C[C[C[2Pman uname[C[C[C[C[C[4Pclearuname -l[C[C[C[C[C[3Pclearwhatis whoami[C[C[C[C[C[8Pclearwhoami[1Pclearusername[C[C[C[C[Cc[Klusernme[C[C[C[C[C[2Pclear[1Puserclearunameclearwhoamio[1Pclearwho am i[C[C[C[C[Cc[Klwo als -ld trees[C[C[C[C[Cc[Kls -l trees[C[C[C[C[C[6Pcd ..umaskclear[2Puma[2Pchmod -R 755 pracumask]c][C[C[C[C[Cls -l[Kclearls -l[Kcleard prac/[3Plearhmod -R 755 prac[C[C[C[C[C[Cd ..[K[3Plscd prac/[3Plearsudo chmod -R 777 prac[C[C[C[C[C[14Pcd prac/[C[C[C[C[Csudo chmod -R 644 prac[C[C[C[C[Ccd ..[K[3Plscd prac/[C[C[C[C[Csudo chmod -R 777 prac[C[C[C[C[C[14Pcd prac/[C[C[C[C[C[15@sudo chmod -R 666[C[C[C[C[C[C[C[C[C[C[Cclear[Ksudo cd prac/[C[C[C[C[C[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[15@sudo chmod -R 664[C[C[C[C[C[C[C[C[C[C[Cls[Kcleard Exercise\ Files/[C[C[C[C[Cls[Kcd ..prac/[Ksudo chmod -R 644 prac/[C[C[C[C[C[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cd ..[Ksudo ls -l[C[C[C[C[C[5P[C[C[C[C[Cclearls -lsudo chmod -R 640 .[C[C[C[C[C[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Clear[Klsclee[K[1Pcls -lcd prac/hmod -R 777 prac[C[C[C[C[Cls[Kcd ..lear[3Plsclearat archive.tar [C[C[C[C[C[Clear[Kl[Kclear[3Plsclearhmod 640 archive.tar ; ls -l archive.tar [C[C[C[C[C[24P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4@chmod 444[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Clear[Khmod 444 arhc[C[C[C[C[C[Clear[Khmod 444 archive.tar [C[C[C[C[C[4Pls -l[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[24@chmod 640 archive.tar ; [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Clear[K[3Plsclearl[Kclearat archive.tar [C[C[C[C[C[Clear[K[3Plscleard ..[3Plschmod -R 777 prac[C[C[C[C[C[C[9Pd prac/[C[C[C[C[C[3Pls -lc[Klescleclearhmod -R 640 .[C[C[C[C[C[5@sudo [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -l[Kclearls -l[5@sudo [C[C[C[C[C[C[C[C[C[C[5Pcd ..hmod -R 644 prac/[C[C[C[C[C[5@sudo [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc[Kd prac/[3P..[3Plscd Exercise\ Files/[C[C[C[C[C[Clear[K[3Plssudo chmod -R 664 prac/[C[C[C[C[C[15Pcd[C[C[C[C[C[C[C[C[C[C[C[5@sudo [C[C[C[C[C[C[C[C[C[C[C[C[C[8Pclearsudo chmod -R 666 prac/[C[C[C[C[C[15Pcd[C[C[C[C[C[C[C[C[C[C[Csudo chmod -R 777 prac[C[C[C[C[C[14Pcd prac/[C[C[C[C[Cls[Kcd ..sudo chmod -R 644 prac[C[C[C[C[C[14Pcd prac/[C[C[C[C[Csudo chmod -R 777 prac[C[C[C[C[Cclear[Kd prac/[C[C[C[C[Cls[Kcd ..hmod -R 755 prac[C[C[C[C[C[Clear[Kd prac/[3Plear[3Pls -lclearls -lchmod -R 755 pracumask]c][C[C[C[C[C[C[Kumaclearumaskcd ..ls -l trees[C[C[C[C[Cc[Kls -ld trees[C[C[C[C[C[8Pwo a[2Pcl[Kwho am i[C[C[C[C[C[3Pclearwhoamoi[1Pclearunameclear[1Puserclearusernme[C[C[C[C[Ccl[K[Kusername[C[C[C[C[C[3Pclearwhoami[1Pclearwhatis whoami[C[C[C[C[C[8Pclearuname -l[C[C[C[C[C[3Pclearman uname[C[C[C[C[Cuname --all[C[C[C[C[C[6Pclearuame -a[C[C[C[C[Cc[Kuname -a[C[C[C[C[Cman whoami[C[C[C[C[C[5Pclearuname --helps[Knrv | cut -d" " -f84[C[C[C[C[Cc[Kle[1Pcuname -v |tr -s " " |cut -d" " -f412343[K[C[C[C[C[Cc[Klear[3Plsclearl[Kclear[3Plsclear[3Plsclearl[Kcle[Kclclear[3Pls -l prac[C[C[C[C[C[5Pclear[1Pexitclear[2Pwhoclearwhatis who[C[C[C[C[C[5Pclearwho | grep anurag > foo[C[C[C[C[Ccat foo[K[2Plear[3Plsclear[2Pwho | grep "pts/023" > foo[C[C[C[C[Ccat foo[K[Klearl[Kwho | grep "pts/23"[C[C[C[C[Cc[Kgrep "director" shortlist archive.tar [C[C[C[C[Cc[Kgrep barry wood shortlist [C[C[C[C[Cc[Kgrep "barry wood" shortlist [C[C[C[C[Cc[Klear[3Pptclears[Kpsclearps axclearman psps -eJH[C[C[C[C[C[2Pclearps -eJH-help[C[C[C[C[C[4Pclearman psps -ejH[C[C[C[C[C[Kc
-[H[Jprac:clear
-[H[Jprac:ps clear[Kps -ejH[C[C[C[C[C[1Pman psps -ejH }[K| less
-[?1049h[?1h=  PID  PGID   SID TTY          TIME CMD
-    2     0     0 ?        00:00:00 kthreadd
-    3     0     0 ?        00:00:00   ksoftirqd/0
-    5     0     0 ?        00:00:00   kworker/0:0H
-    7     0     0 ?        00:00:52   rcu_sched
-    8     0     0 ?        00:00:17   rcuos/0
-    9     0     0 ?        00:00:11   rcuos/1
-   10     0     0 ?        00:00:37   rcuos/2
-   11     0     0 ?        00:00:15   rcuos/3
-   12     0     0 ?        00:00:00   rcuos/4
-   13     0     0 ?        00:00:00   rcuos/5
-   14     0     0 ?        00:00:00   rcuos/6
-   15     0     0 ?        00:00:00   rcuos/7
-   16     0     0 ?        00:00:00   rcu_bh
-   17     0     0 ?        00:00:00   rcuob/0
-   18     0     0 ?        00:00:00   rcuob/1
-   19     0     0 ?        00:00:00   rcuob/2
-   20     0     0 ?        00:00:00   rcuob/3
-   21     0     0 ?        00:00:00   rcuob/4
-   22     0     0 ?        00:00:00   rcuob/5
-   23     0     0 ?        00:00:00   rcuob/6
-   24     0     0 ?        00:00:00   rcuob/7
-   25     0     0 ?        00:00:00   migration/0
-   26     0     0 ?        00:00:00   watchdog/0
-   27     0     0 ?        00:00:00   watchdog/1
-   28     0     0 ?        00:00:00   migration/1
-   29     0     0 ?        00:00:00   ksoftirqd/1
-   31     0     0 ?        00:00:00   kworker/1:0H
-   32     0     0 ?        00:00:00   watchdog/2
-   33     0     0 ?        00:00:00   migration/2
-   34     0     0 ?        00:00:00   ksoftirqd/2
-   36     0     0 ?        00:00:00   kworker/2:0H
-   37     0     0 ?        00:00:00   watchdog/3
-   38     0     0 ?        00:00:00   migration/3
-   39     0     0 ?        00:00:00   ksoftirqd/3
-   41     0     0 ?        00:00:00   kworker/3:0H
-   42     0     0 ?        00:00:00   khelper
-   43     0     0 ?        00:00:00   kdevtmpfs
-   44     0     0 ?        00:00:00   netns
-   45     0     0 ?        00:00:00   writeback
-   46     0     0 ?        00:00:00   kintegrityd
-   47     0     0 ?        00:00:00   bioset
-   49     0     0 ?        00:00:00   kblockd
-   50     0     0 ?        00:00:00   ata_sff
-   51     0     0 ?        00:00:00   khubd
-   52     0     0 ?        00:00:00   md
-   53     0     0 ?        00:00:00   devfreq_wq
-   56     0     0 ?        00:00:00   khungtaskd
-   57     0     0 ?        00:00:02   kswapd0
-   58     0     0 ?        00:00:00   ksmd
-   59     0     0 ?        00:00:03   khugepaged
-   60     0     0 ?        00:00:00   fsnotify_mark
-   61     0     0 ?        00:00:00   ecryptfs-kthrea
-   62     0     0 ?        00:00:00   crypto
-   74     0     0 ?        00:00:00   kthrotld
-   98     0     0 ?        00:00:00   deferwq
-   99     0     0 ?        00:00:00   charger_manager
-  150     0     0 ?        00:00:00   scsi_eh_0
-  151     0     0 ?        00:00:00   kpsmoused
-  152     0     0 ?        00:00:00   scsi_eh_1
-:[K[K  153     0     0 ?        00:00:00   scsi_eh_2
-  170     0     0 ?        00:00:03   jbd2/sda1-8
-  171     0     0 ?        00:00:00   ext4-rsv-conver
-  415     0     0 ?        00:00:45   irq/39-DLL063E:
-  485     0     0 ?        00:00:00   cfg80211
-  487     0     0 ?        00:08:43   irq/61-iwlwifi
-  523     0     0 ?        00:00:00   kvm-irqfd-clean
-  621     0     0 ?        00:00:00   scsi_eh_3
-  622     0     0 ?        00:00:00   rts5139-control
-  623     0     0 ?        00:00:30   rts5139-polling
-  678     0     0 ?        00:00:00   hd-audio1
-  689     0     0 ?        00:00:00   hd-audio0
-  874     0     0 ?        00:00:00   krfcommd
- 1448     0     0 ?        00:00:00   kauditd
- 2566     0     0 ?        00:00:00   iprt-VBoxWQueue
- 2574     0     0 ?        00:00:00   iprt-VBoxTscThr
- 7581     0     0 ?        00:00:00   kworker/1:1H
- 7582     0     0 ?        00:00:00   kworker/2:1H
- 7583     0     0 ?        00:00:00   kworker/3:1H
-11707     0     0 ?        00:00:01   kworker/u17:1
-20865     0     0 ?        00:00:00   irq/63-mei_me
-20936     0     0 ?        00:00:00   hci0
-20937     0     0 ?        00:00:00   hci0
-26151     0     0 ?        00:00:00   kworker/u17:0
-27722     0     0 ?        00:00:02   kworker/0:1
-28070     0     0 ?        00:00:02   kworker/3:2
-29175     0     0 ?        00:00:02   kworker/2:3
-29178     0     0 ?        00:00:01   kworker/1:0
-30221     0     0 ?        00:00:00   kworker/u16:0
-30346     0     0 ?        00:00:00   kworker/1:1
-30435     0     0 ?        00:00:00   kworker/u16:3
-30469     0     0 ?        00:00:00   kworker/0:2
-30630     0     0 ?        00:00:00   kworker/3:1
-30682     0     0 ?        00:00:00   kworker/2:0
-30694     0     0 ?        00:00:00   kworker/u16:1
-30719     0     0 ?        00:00:00   kworker/1:2
-30779     0     0 ?        00:00:00   kworker/3:0
-    1     1     1 ?        00:00:01 init
-  352   351   351 ?        00:00:00   upstart-udev-br
-  369   369   369 ?        00:00:00   systemd-udevd
-  743   743   743 ?        00:00:12   dbus-daemon
-  754   754   754 ?        00:02:00   rsyslogd
-  760   759   759 ?        00:00:00   upstart-file-br
-  763   761   761 ?        00:00:00   upstart-socket-
-  839   839   839 ?        00:00:00   ModemManager
-  867   867   867 ?        00:00:00   systemd-logind
-  869   869   869 ?        00:00:00   bluetoothd
-  884   883   883 ?        00:06:47   avahi-daemon
-  891   883   883 ?        00:00:00     avahi-daemon
-  909   909   909 ?        00:00:13   NetworkManager
- 1409  1409   909 ?        00:00:02     dnsmasq
-21455 21455   909 ?        00:00:00     dhclient
-  915   743   743 ?        00:00:02   polkitd
-  923   923   923 ?        00:00:01   wpa_supplicant
- 1083  1083  1083 tty4     00:00:00   getty
- 1087  1087  1087 tty5     00:00:00   getty
- 1094  1094  1094 tty2     00:00:00   getty
- 1095  1095  1095 tty3     00:00:00   getty
- 1099  1099  1099 tty6     00:00:00   getty
- 1154  1154  1154 ?        00:00:00   sshd
-:[K[K 1182  1182  1182 ?        00:00:12   cups-browsed
- 1190  1190  1190 ?        00:00:09   acpid
- 1205  1205  1205 ?        00:00:00   cron
- 1207  1207  1207 ?        00:00:02   irqbalance
- 1215  1215  1215 ?        00:00:17   mysqld
- 1297  1297  1297 ?        00:00:01   whoopsie
- 1308  1261  1261 ?        00:00:00   postgres
- 1748  1748  1748 ?        00:00:00     postgres
- 1749  1749  1749 ?        00:00:00     postgres
- 1750  1750  1750 ?        00:00:00     postgres
- 1751  1751  1751 ?        00:00:00     postgres
- 1752  1752  1752 ?        00:00:00     postgres
- 1320  1320  1320 ?        00:00:00   lightdm
- 1339  1339  1339 tty7     00:16:46     Xorg
- 1854  1320  1320 ?        00:00:00     lightdm
- 2824  2824  2824 ?        00:00:00       init
- 2898  2898  2898 ?        00:00:19         dbus-daemon
- 2909  2909  2909 ?        00:00:00         upstart-event-b
- 2914  2914  2914 ?        00:00:00         window-stack-br
- 2934  2931  2931 ?        00:00:02         upstart-dbus-br
- 2935  2933  2933 ?        00:00:00         upstart-dbus-br
- 2936  2932  2932 ?        00:00:00         upstart-file-br
- 2938  2898  2898 ?        00:00:06         bamfdaemon
- 2952  2952  2952 ?        00:00:04         unity-settings-
- 8842  2952  2952 ?        00:00:10           syndaemon
- 2954  2954  2954 ?        00:00:06         hud-service
- 2959  2959  2959 ?        00:00:00         at-spi-bus-laun
- 2967  2959  2959 ?        00:00:00           dbus-daemon
- 2960  2960  2960 ?        00:00:01         gnome-session
- 3337  2960  2960 ?        00:18:30           compiz
- 3374  2960  2960 ?        00:00:19           nautilus
- 3376  2960  2960 ?        00:00:01           light-locker
- 3377  2960  2960 ?        00:00:00           unity-fallback-
- 3379  2960  2960 ?        00:00:08           nm-applet
- 3380  2960  2960 ?        00:00:00           polkit-gnome-au
- 3382  2960  2960 ?        00:00:00           blueman-applet
- 3557  2960  2960 ?        00:00:00           telepathy-indic
- 3596  2960  2960 ?        00:00:01           zeitgeist-datah
- 3646  2960  2960 ?        00:00:00           evolution-alarm
- 3945  2960  2960 ?        00:00:00           update-notifier
- 4466  2960  2960 ?        00:00:00           deja-dup-monito
- 2966  2966  2966 ?        00:00:29         unity-panel-ser
- 2975  2959  2959 ?        00:00:00         at-spi2-registr
- 2979  2898  2898 ?        00:00:00         gvfsd
- 2985  2898  2898 ?        00:00:00         gvfsd-fuse
- 3046  2898  2898 ?        00:00:00         indicator-keybo
- 3048  3048  3048 ?        00:00:00         indicator-messa
- 3049  3049  3049 ?        00:00:00         indicator-bluet
- 3053  3053  3053 ?        00:00:03         indicator-power
- 3054  3054  3054 ?        00:00:00         indicator-datet
- 3056  3056  3056 ?        00:00:01         indicator-sound
- 3057  3057  3057 ?        00:00:00         indicator-print
- 3058  3058  3058 ?        00:00:01         indicator-sessi
- 3061  3061  3061 ?        00:00:01         indicator-appli
- 3159  3157  3157 ?        00:02:08         pulseaudio
- 3319  2898  2898 ?        00:00:00         dconf-service
- 3329  2898  2898 ?        00:00:00         evolution-sourc
- 3342  2898  2898 ?        00:00:09         notify-osd
- 3349  3349  2898 ?        00:00:00         ibus-daemon
- 3423  3349  2898 ?        00:00:00           ibus-dconf
-:[K[K 3431  3349  2898 ?        00:00:00           ibus-engine-sim
- 3390  2898  2898 ?        00:00:00         gvfsd-metadata
- 3400  2898  2898 ?        00:00:00         evolution-calen
- 3413  2898  2898 ?        00:00:00         gvfs-udisks2-vo
- 3425  3349  2898 ?        00:00:00         ibus-x11
- 3452  2898  2898 ?        00:00:00         gvfs-afc-volume
- 3457  2898  2898 ?        00:00:00         gvfs-mtp-volume
- 3461  2898  2898 ?        00:00:00         gvfs-gphoto2-vo
- 3466  2898  2898 ?        00:00:00         gconfd-2
- 3467  3467  3467 ?        00:01:04         dropbox
- 3487  2898  2898 ?        00:00:03         gvfsd-trash
- 3525  2898  2898 ?        00:00:00         obex-data-serve
- 3549  2898  2898 ?        00:00:00         gvfsd-burn
- 3571  2898  2898 ?        00:00:03         mission-control
- 3601  2898  2898 ?        00:00:00         zeitgeist-daemo
- 3607  2898  2898 ?        00:00:00         zeitgeist-fts
- 3618  2898  2898 ?        00:00:00           cat
- 3627  2960  2960 ?        00:51:13         chrome
- 3635  2960  2960 ?        00:00:00           cat
- 3636  2960  2960 ?        00:00:00           cat
- 3641  2960  2960 ?        00:00:00           chrome
- 3644  2960  2960 ?        00:00:00             nacl_helper
- 3649  2960  2960 ?        00:00:00             chrome
- 3826  2960  2960 ?        00:00:00               chrome
- 3833  2960  2960 ?        00:05:22               chrome
- 3836  2960  2960 ?        00:08:23               chrome
- 3839  2960  2960 ?        00:00:52               chrome
- 3842  2960  2960 ?        00:00:00               chrome
- 3848  2960  2960 ?        00:00:04               chrome
- 3851  2960  2960 ?        00:00:01               chrome
- 3854  2960  2960 ?        00:00:07               chrome
- 3857  2960  2960 ?        00:00:02               chrome
- 3884  2960  2960 ?        00:05:22               chrome
- 3891  2960  2960 ?        00:00:01               chrome
- 3929  2960  2960 ?        00:03:24               chrome
- 3953  2960  2960 ?        00:03:21               chrome
- 3977  2960  2960 ?        00:04:10               chrome
- 3983  2960  2960 ?        00:00:41               chrome
- 3995  2960  2960 ?        00:00:04               chrome
-26518  2960  2960 ?        00:00:08               chrome
-27725  2960  2960 ?        00:00:01               chrome
-28202  2960  2960 ?        00:00:18               chrome
-30538  2960  2960 ?        00:07:08               chrome
-30659  2960  2960 ?        00:00:05               chrome
- 3689  2960  2960 ?        00:31:38           chrome
- 3714  2960  2960 ?        00:00:00             chrome
- 5392  2898  2898 ?        00:00:00         gvfsd-http
-13909  2952  2952 ?        00:00:25         gnome-terminal
-13913  2952  2952 ?        00:00:00           gnome-pty-helpe
-13914 13914 13914 pts/0    00:00:01           bash
-27238 27238 13914 pts/0    00:00:00             sl
-29498 29498 13914 pts/0    00:00:00             screen
-29499 29499 29499 ?        00:00:00               screen
-29500 29500 29500 pts/13   00:00:00                 bash
-29837 29837 29500 pts/13   00:00:00                   script
-29838 29837 29500 pts/13   00:00:00                     script
-29839 29839 29839 pts/24   00:00:00                       bash
-30829 30829 29839 pts/24   00:00:00                         ps
-30830 30829 29839 pts/24   00:00:00                         less
-29567 29567 29567 pts/23   00:00:00                 bash
-:[K[K 1342   743   743 ?        00:00:37   accounts-daemon
- 2137  2137  2137 ?        00:00:00   dictd
- 2172  2171  2171 ?        00:00:00   daemon
- 2174  2171  2171 ?        00:01:05     java
- 2327  2327  2327 ?        00:00:00   kerneloops
- 2351  2351  2351 ?        00:00:00   nrsysmond
- 2355  2351  2351 ?        00:00:48     nrsysmond
- 2610  2610  2610 ?        00:00:01   vnstatd
- 2649  2648  2648 ?        00:00:01   vpnagentd
- 2685  2685  2685 ?        00:00:00   apache2
- 2687  2685  2685 ?        00:00:08     apache2
- 2688  2685  2685 ?        00:00:08     apache2
- 2822  2821  2821 ?        00:00:59   gnome-keyring-d
- 3001  3001  3001 ?        00:00:00   miniserv.pl
- 3007  3007  3007 tty1     00:00:00   getty
- 3077   743   743 ?        00:00:03   upowerd
- 3169   743   743 ?        00:00:00   rtkit-daemon
- 3316   743   743 ?        00:00:00   colord
- 3436   743   743 ?        00:00:04   udisksd
-10029 10029 10029 ?        00:00:07   cupsd
-[3m(END)[23m[K[K[K[3m(END)[23m[K[K[K[3m(END)[23m[K[K[?1l>[?1049lprac:kill -9 0
+I: Bus=0019 Vendor=0000 Product=0000 Version=0000
+N: Name="Dell WMI hotkeys"
+P: Phys=wmi/input0
+S: Sysfs=/devices/virtual/input/input10
+U: Uniq=
+H: Handlers=rfkill kbd event9 
+B: PROP=0
+B: EV=13
+B: KEY=1500b00000000 200300000 0 0
+B: MSC=10
 
-Script done on Sun 28 Feb 2016 11:26:35 PM EST
+I: Bus=0003 Vendor=04f3 Product=2020 Version=0110
+N: Name="ELAN Touchscreen"
+P: Phys=usb-0000:00:1d.0-1.6/input0
+S: Sysfs=/devices/pci0000:00/0000:00:1d.0/usb1/1-1/1-1.6/1-1.6:1.0/input/input11
+U: Uniq=
+H: Handlers=mouse3 event10 
+B: PROP=2
+B: EV=b
+B: KEY=400 0 0 0 0 0
+B: ABS=3273800000000003
+
+I: Bus=0003 Vendor=064e Product=9202 Version=4423
+N: Name="Integrated_Webcam_HD"
+P: Phys=usb-0000:00:1d.0-1.8/button
+S: Sysfs=/devices/pci0000:00/0000:00:1d.0/usb1/1-1/1-1.8/1-1.8:1.0/input/input13
+U: Uniq=
+H: Handlers=kbd event11 
+B: PROP=0
+B: EV=3
+B: KEY=100000 0 0 0
+
+I: Bus=0019 Vendor=0000 Product=0006 Version=0000
+N: Name="Video Bus"
+P: Phys=LNXVIDEO/video/input0
+S: Sysfs=/devices/LNXSYSTM:00/device:00
